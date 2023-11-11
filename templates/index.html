@@ -164,16 +164,15 @@
             <input name="QA_count" type="text" placeholder="Number of Questions"/>
           </div>
           <div class="options">
-            <select  name="btech_branch">
+            <select  id="btech_course" name="btech_course" onchange="updateCourse()">
+            <option  value="default">Course</option>
+            <option  value="BTECH">Btech</option>
+            <option  value="MBA">MBA</option>
+            </select>
+            <hr class="bottom-line">
+          <div class="options">
+            <select id="btech_branch" name="btech_branch">
             <option  value="default">Branch</option>
-            <option  value="CSE">CSE</option>
-            <option  value="AIML">AIML</option>
-            <option  value="AIDS">AIDS</option>
-            <option  value="ECE">ECE</option>
-            <option value="EEE">EEE</option>
-            <option value="MECH">MECH</option>
-            <option value="CIVIL">CIVIL</option>
-            <option value="CHEM">CHEM</option>
             </select>
             <hr class="bottom-line">
           </div>
@@ -193,6 +192,37 @@
         </form>
       </div>
     </div>
+    <script>
+      function updateCourse() {
+          // Get the selected continent
+          var selectedCourse = document.getElementById("btech_course").value;
   
+          var courseDropdown = document.getElementById("btech_branch");
+  
+          // Clear previous options
+          courseDropdown.innerHTML = '<option value="0">Select a Course</option>';
+  
+          // Add options based on the selected continent
+          if (selectedCourse === "BTECH") {
+              // If Asia is selected
+              var btechCourses = ["CSE", "AIML", "AIDS", "IT","ECE","MECH","CIVIL","EEE","CHEM"];
+              populateDropdown(courseDropdown, btechCourses);
+          } else if (selectedCourse === "MBA") {
+              // If Europe is selected
+              var MBACourses = ["Finance", "HR",];
+              populateDropdown(courseDropdown, MBACourses);
+          }
+      }
+  
+      function populateDropdown(dropdown, options) {
+          // Populate the dropdown with the provided options
+          for (var i = 0; i < options.length; i++) {
+              var option = document.createElement("option");
+              option.text = options[i];
+              option.value = options[i];
+              dropdown.add(option);
+          }
+      }
+  </script>
   </body>
 </html>
