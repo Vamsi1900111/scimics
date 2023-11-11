@@ -20,10 +20,10 @@ def predict():
     course_name = request.form['course_name']
     btech_branch = request.form['btech_branch']
     QA_difficulty = request.form['QA_difficulty']
-    input_data="generate only"+ QA_count+QA_difficulty+"questions on "+course_name+"for"+btech_branch+"branch with answers.(question should start and end with ||)"
+    text="generate only"+ QA_count+QA_difficulty+"questions on "+course_name+"for"+btech_branch+"branch with answers.(question should start and end with ||)"
     # api_url = 'http://localhost:5000/api/predict'
     # result = requests.post(api_url, json= input_data)
-    text = "Generate 10 question "
+    #text = "Generate 10 question "
     palm.configure(api_key='AIzaSyCpta0zYFZSLw7imatVqW-exaviTfMIqu0')
     # These parameters for the model call can be set by URL parameters.
     #model = 'models/text-bison-001' # @param {isTemplate: true}
@@ -53,7 +53,7 @@ def predict():
   'safety_settings': safety_settings,
     }
 # Show what will be sent with the API call.
-    response = palm.generate_text(prompt=input_data)
+    response = palm.generate_text(prompt=text)
     questions_string = response.result
     questions = [question.strip() for question in questions_string.split("||") if question]
     # questions = [question.strip() for question in questions_string.split(":") if question]
