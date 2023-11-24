@@ -80,4 +80,4 @@ def predict():
     count=int(count1)+int(count2)+int(count3)+int(count4)+int(count5)+int(count6)+int(count7)
     return render_template('result.html',time=str(time),count=str(count), result1=questions_string,result2=result2,result3=result3,result4=result4,result5=result5,result6=result6,result7=result7)
 if __name__ == '__main__':
-    app.run(debug=True,port=5000)
+    app.run(debug=True,port=5000,host='0.0.0.0')
