@@ -1,126 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Q/A Generator</title>
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
-    <style>
-      
-      .container .input-section {
-        display: flex;
-        align-items:center;
-        justify-content: center;
-      }
-      body {
-        /* height: 100vh; */
-        /* background-color: #ffffff; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-top: 1%; */
-      }
-     
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Q/A Generator</title>
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+
+  <style>
+    .container .input-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body {
+      /* height: 100vh; */
+      /* background-color: #ffffff; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin-top: 1%; */
+    }
+
+    .container {
+      width: 800px;
+      min-width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* background-color: rgb(255, 255, 255); */
+
+      padding: -50px;
+      /* box-shadow: 10px 10px 30px rgb(0, 0, 0); */
+      overflow-x: hidden;
+    }
+
+    .input-section form input {
+      font-size: large;
+      width: 90%;
+      padding: 10px;
+      margin-top: 1rem;
+      background-color: transparent;
+      border: 0px;
+      border: none;
+      outline: none;
+      border-bottom: 1.4px solid rgba(67, 62, 62, 0.452);
+    }
+
+    .input-section form input:hover {
+      border-bottom: 2px solid rgb(46, 140, 234);
+    }
+
+    #button {
+      width: 50%;
+      background-color: rgb(46, 140, 234);
+      font-size: large;
+      color: #ffffff;
+      border-radius: 10px;
+      cursor: pointer;
+
+    }
+
+    .container .input-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border: solid 1px black;
+      padding: 50px;
+      /* row-gap: 20px; */
+    }
+
+    select {
+      padding: 2%;
+      width: 80%;
+      height: 15%;
+      margin: 10px;
+      border: 0px;
+      border-bottom: 1px solid black;
+      margin-top: 20px;
+    }
+
+    .bottom-line {
+      margin-top: -10px;
+      width: 92%;
+      border-bottom: 1px solid black;
+
+    }
+
+    .options select {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 480px) {
       .container {
-        width: 600px;
-        min-width: 400px;
+        overflow: hidden;
+      }
+
+      .container .input-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* background-color: rgb(255, 255, 255); */
-
-        padding: 30px 0px;
-        /* box-shadow: 10px 10px 30px rgb(0, 0, 0); */
-        overflow-x: hidden;
+        padding-top: 1.5rem;
+        border: none;
+        padding-bottom: none;
+        /* row-gap: 20px; */
       }
+
+      .container .input-section form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
       .input-section form input {
         font-size: large;
-        width: 100%;
-        padding: 10px;
-        margin-top: 3rem;
+        width: 80%;
+        padding: 8px;
+        margin-top: 1rem;
+        /* margin-left: 1rem; */
+
         background-color: transparent;
         border: 0px;
-        border:none;
-        outline:none;
-        border-bottom: 1.4px solid rgba(67, 62, 62, 0.452);
+        border-bottom: 1px solid black;
       }
 
-      .input-section form input:hover{
-        border-bottom: 2px solid rgb(46, 140, 234);
-      }
       #button {
-        width: 100%;
-        background-color: rgb(46, 140, 234);
-        font-size: large;
-        color: #ffffff;
-        border-radius: 10px;
-        cursor:pointer;
-        
-      }
-      .container .input-section{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            padding-top: 1rem;
-            padding-bottom:1rem;
-            border:solid 1px black;
-
-            /* row-gap: 20px; */
-        }
-        select{
-            padding:5%;
-            width:100%;
-            height:15%;
-            margin:10px;
-            border:0px;
-            border-bottom:1px;
-            margin-top:25px;
-        }
-        .bottom-line{
-            margin-top:-10px;
-            width:108%;
-            color:black;
-            
-        }
-        .options select {
-            font-size:18px;
-        }
-      @media screen and (max-width: 480px) {
-        .container {
-          overflow: hidden;
-        }
-        .container .input-section{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-top: 1.5rem;
-            border:none;
-            padding-bottom:none;
-            /* row-gap: 20px; */
-        }
-        .container .input-section form{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .input-section form input {
-          font-size: large;
-          width: 100%;
-          padding: 8px;
-          margin-top: 3rem;
-          /* margin-left: 1rem; */
-          
-          
-          background-color: transparent;
-          border: 0px;
-          border-bottom: 2px solid black;
-        }
-       
-        #button {
         width: 70%;
-       cursor:pointer;
+        cursor: pointer;
         margin: auto;
         margin-top: 2.5rem;
         background-color: rgb(46, 140, 234);
@@ -129,100 +139,138 @@
         border-radius: 10px;
       }
     }
-    .edit_head{
+
+    .edit_head {
       font-family: sans-serif;
       font-weight: 400;
       text-transform: capitalize;
       text-shadow: 1px 1px rgb(29, 29, 39);
       /* margin-top: 2rem; */
     }
-    </style>
-    <!-- <link rel="stylesheet" href="user_signup.css"> -->
-  </head>
-  <body>
-    <div class="container">
+    label{
+      font-size: 22px;
+    }
+  </style>
+  <!-- <link rel="stylesheet" href="user_signup.css"> -->
+</head>
 
-      <div class="input-section">
+<body>
+  <div class="container">
+    <div class="input-section">
+      <form action="/predict" method="post" autocomplete="off">
+        <h1 class="edit_head" align="center"> <span style="color:rgb(46, 140, 234)">Dynamic Q/A Generator</span></h1>
        
-       
-        <form action="/predict" method="post" autocomplete="off">
-          <h1 class="edit_head"  align="center"> <span style="color:rgb(46, 140, 234)">Dynamic Q/A Generator</span></h1>
-          <!-- <div class="input-field">
-            <input name="std_name" type="text" placeholder="Name"/>
-          </div>
-            <hr  class="bottom-line"> -->
-          <!-- <div class="options" > -->
-            <!-- <select  name="std_course">
-            <option  value="1">B-TECH</option>
-            <option value="2">BBA</option>
-            <option  value="3">MBA</option>
-            <option value="4">M-TECH</option>
-            </select>
-            <hr  class="bottom-line">
-          </div> -->
-          <div class="input-field">
-            <input name="QA_count" type="text" placeholder="Number of Questions"/>
-          </div>
-          <div class="options">
-            <select  id="btech_course" name="btech_course" onchange="updateCourse()">
-            <option  value="default">Course</option>
-            <option  value="BTECH">Btech</option>
-            <option  value="MBA">MBA</option>
-            </select>
-            <hr class="bottom-line">
-          <div class="options">
-            <select id="btech_branch" name="btech_branch">
-            <option  value="default">Branch</option>
-            </select>
-            <hr class="bottom-line">
-          </div>
-          <div class="input-field">
-            <input name="course_name" type="text" placeholder="Course Name"/>
-          </div>
         <div class="options">
-            <select name="QA_difficulty" >
-            <option value="default" >Difficulty level</option>
-            <option value="Easy" >Easy</option>
-            <option value="Medium">Medium</option>
-            <option  value="Hard">Hard</option>
+          <br><label for="course"> <b> 1) Tech Proficiency:</b></label>
+          <select id="course" name="course" onchange="updateCourse()">
+            <option value="default">Education</option>
+            <option value="BTECH">Btech</option>
+            <option value="MBA">MBA</option> 
+          </select>
+          <!-- <hr class="bottom-line"> -->
+          <div class="options">
+            <select id="stream" name="stream">
+              <option value="default">Stream</option>
             </select>
-            <hr class="bottom-line">
+            <!-- <hr class="bottom-line"> -->
           </div>
-          <input id="button" type="submit" value="submit" name="Submit">
-        </form>
-      </div>
+          <!-- <div class="input-field">
+            <input name="course_name" type="text" placeholder="Course Name" />
+          </div> -->
+            <div class="input-field">
+            <input name="1Q_count" type="text" placeholder="No of questions" />
+            <input name="1Q_time" type="text" placeholder="Total Time(In seconds)" />
+          </div>
+          <br><br><label for="2Q_time"> <b> 2) Communication Skills:</b></label>
+          <div class="input-field">
+            <input name="2Q_time" type="text" placeholder="Total Time(In seconds)" />
+           <br><br> <label for="2Q_a_count">a)Speaking:</label>
+            <input name="2Q_a_count" type="text" placeholder="2(No of Questions)" />
+           <br><br> <label for="2Q_b_count">b)Listening:</label>
+           <input name="2Q_b_count" type="text" placeholder="2(No of Questions)" />
+           <br><br> <label for="2Q_c_count">c)Writting:</label>
+            <input name="2Q_c_count" type="text" placeholder="2(No of Questions)" />
+            <br><br> <label for="2Q_d_count">d)Reading:</label>
+            <input name="2Q_d_count" type="text" placeholder="2(No of Questions)" />
+          </div>
+          <br><br><label for="3Q_time"> <b>3)Cognitive Abilities:</b></label>
+          <div class="input-field">
+            <input name="3Q_time" type="text" placeholder="Total Time(In seconds)" />
+           <br><br> <label for="3Q_a_count">a)Quantitative Aptitude:</label>
+            <input name="3Q_a_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="3Q_b_count">b)Analytical Reasoning:</label>
+           <input name="3Q_b_count" type="text" placeholder="No of Questions" />
+          </div>
+          <br><br><label for="4Q_time"> <b> 4)Interpersonal &Teameork Skills:</b></label>
+          <div class="input-field">
+            <input name="4Q_time" type="text" placeholder="Total Time(In seconds)" />
+           <br><br> <label for="4Q_a_count">a)Group Activities:</label>
+            <input name="4Q_a_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="4Q_b_count">b)Peer Feedback:</label>
+           <input name="4Q_b_count" type="text" placeholder="No of Questions" />
+          </div>
+          <br><br><label for="5Q_time"> <b> 5)Adaptability & Continous learning:</b></label>
+          <div class="input-field">
+            <input name="5Q_time" type="text" placeholder="Total Time(In seconds)" />
+           <br><br> <label for="5Q_a_count">a) Adaptability:</label>
+            <input name="5Q_a_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="5Q_b_count">b)Continous learning:</label>
+           <input name="5Q_b_count" type="text" placeholder="No of Questions" />
+          </div>
+          <br><br><label for="6Q_time"> <b> 6)Project Management and Time Management</b></label>
+          <div class="input-field">
+            <input name="6Q_time" type="text" placeholder="Total Time(In seconds)" />
+           <br><br> <label for="6Q_a_count">a) Prioritization tasks and setting clear goals:</label>
+            <input name="6Q_a_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="6Q_b_count">b)Estimation of time required for tasks and setting deadlines:</label>
+           <input name="6Q_b_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="6Q_c_count">c) Handling multitasking and managing multiple assignments:</label>
+            <input name="6Q_c_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="6Q_d_count">d)Understanding project life cycles, from initiation to completion:</label>
+           <input name="6Q_d_count" type="text" placeholder="No of Questions" />            
+           <br><br> <label for="6Q_e_count">e) Utilization of tools or software related to time and project management:</label>
+            <input name="6Q_e_count" type="text" placeholder="No of Questions" />
+          </div>
+          <br><br><label for="7Q_time"> <b> 7)Professional Etiquette and Interview Preparedness:</b></label>
+          <div class="input-field">
+            <input name="7Q_time" type="text" placeholder="Total Time(In seconds)" />
+           <br><br> <label for="7Q_a_count">a) Scenario-based questions on professional conduct:</label>
+            <input name="7Q_a_count" type="text" placeholder="No of Questions" />
+           <br><br> <label for="7Q_b_count">b)Setting up Mock interview sessions on our Platform:</label>
+           <input name="7Q_b_count" type="text" placeholder="No of Questions" />
+          </div>
+          <center>
+          <input id="button" type="submit" value="submit" name="submit">
+        </center>
+      </form>
     </div>
-    <script>
-      function updateCourse() {
-          // Get the selected continent
-          var selectedCourse = document.getElementById("btech_course").value;
-  
-          var courseDropdown = document.getElementById("btech_branch");
-  
-          // Clear previous options
-          courseDropdown.innerHTML = '<option value="0">Select a Course</option>';
-  
-          // Add options based on the selected continent
-          if (selectedCourse === "BTECH") {
-              // If Asia is selected
-              var btechCourses = ["CSE", "AIML", "AIDS", "IT","ECE","MECH","CIVIL","EEE","CHEM"];
-              populateDropdown(courseDropdown, btechCourses);
-          } else if (selectedCourse === "MBA") {
-              // If Europe is selected
-              var MBACourses = ["Finance", "HR",];
-              populateDropdown(courseDropdown, MBACourses);
-          }
+  </div>
+  <script>
+    total_time=document.getElementById("total_time")
+    time=
+    total_time.innerHTML(time)
+    
+    function updateCourse() {
+      var selectedCourse = document.getElementById("course").value;
+      var courseDropdown = document.getElementById("stream");
+      courseDropdown.innerHTML = '<option value="0">Select a Course</option>';
+      if (selectedCourse === "BTECH") {
+        var btechCourses = ["CSE", "AIML", "AIDS", "IT", "ECE", "MECH", "CIVIL", "EEE", "CHEM"];
+        populateDropdown(courseDropdown, btechCourses);
+      } else if (selectedCourse === "MBA") {
+        var MBACourses = ["Finance", "HR",];
+        populateDropdown(courseDropdown, MBACourses);
       }
-  
-      function populateDropdown(dropdown, options) {
-          // Populate the dropdown with the provided options
-          for (var i = 0; i < options.length; i++) {
-              var option = document.createElement("option");
-              option.text = options[i];
-              option.value = options[i];
-              dropdown.add(option);
-          }
+    }
+    function populateDropdown(dropdown, options) {
+      for (var i = 0; i < options.length; i++) {
+        var option = document.createElement("option");
+        option.text = options[i];
+        option.value = options[i];
+        dropdown.add(option);
       }
+    }
   </script>
-  </body>
+</body>
+
 </html>

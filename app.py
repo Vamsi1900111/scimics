@@ -1,19 +1,13 @@
 # ui_app.py
 from flask import Flask, render_template, request, jsonify
-import requests
-import google.generativeai as palm
 import json
 import google.generativeai as palm
 import base64
-import json
 import pprint
-import base64
 app = Flask(__name__)
-
 @app.route('/')
 def index():
     return render_template('index.html')
-
 @app.route('/predict', methods=['POST'])
 def predict():
     QA_count=request.form['QA_count']

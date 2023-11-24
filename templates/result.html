@@ -23,8 +23,52 @@
 </head>
 <body>
     <div id="json-container">
-        <h1 align="center">Generated Questions in JSON fromat</h1>
-        {{result}} <br>
-        {{results}}
+        <h1 align="center">Generated MCQ Questions</h1>
+        <div>
+        <h3>Parameter-1 questions:</h3>
+            {% for line in result1%}
+                <p>{{ line }}</p>
+            {% endfor %}
+        </div>
+        <div>
+            <h3>Parameter-2 questions:</h3>
+                {% for line in result2%}
+                    <p>{{ line }}</p>
+                {% endfor %}
+        </div>
+        <div>
+            <h3>Parameter-3 questions:</h3>
+                {% for line in result3%}
+                    <p>{{ line }}</p>
+                {% endfor %}
+        </div>
+        <div>
+            <h3>Parameter-4 questions:</h3>
+                {% for line in result4%}
+                    <p>{{ line }}</p>
+                {% endfor %}
+        </div>
+        <div>
+            <h3>Parameter-5 questions:</h3>
+                {% for line in result5%}
+                    <p>{{ line }}</p>
+                {% endfor %}
+        </div>
+        <div>
+            <h3>Parameter-6 questions:</h3>
+                {% for line in result6%}
+                    <p>{{ line }}</p>
+                {% endfor %}
+        </div>
+        <div>
+            <h3>Parameter-7 questions:</h3>
+                {% for line in result7%}
+                    <p>{{ line }}</p>
+                {% endfor %}
+        </div>
+        <h3 id="total_time">total_time:{{time}}</h3>
+        <h3 id="total_questions">total_questions:{{count}}</h3>
+        
+    </div>
 </body>
 </html>
