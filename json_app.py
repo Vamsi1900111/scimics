@@ -46,6 +46,8 @@ def MCQ_questions(data):
     p5=get_data(parameter_5_questions,"parameter_5")
     p6=get_data(parameter_6_questions,"parameter_6")
     p7=get_data(parameter_7_questions,"parameter_7")
+    with open("questions_data.json", "w") as json_file:
+        json.dumps({'Questions':[p1,p2,p3,p4,p5,p6,p7]}, indent=1)
     return json.dumps({'Questions':[p1,p2,p3,p4,p5,p6,p7]}, indent=1)
 if __name__ == '__main__':
     app.run(port=5000)  # Change the port if needed
