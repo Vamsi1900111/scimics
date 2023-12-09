@@ -100,4 +100,4 @@ def MCQ_questions(data):
     return questions_string,json.dumps({'Questions':[p1,p2,p3,p4,p5,p6,p7]}, indent=1)
   
 if __name__ == '__main__':
-    app.run(port=5000)  # Change the port if needed
+    app.run(host='0.0.0.0',port=5000)  # Change the port if needed
