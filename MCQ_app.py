@@ -20,8 +20,8 @@ def predict():
     def generate(text):
         response = palm.generate_text(prompt=text)
         return response.result
-    stream=request.form['stream']
     course=request.form['course']
+    stream=request.form['stream']
     count1=request.form['1Q_count']
     Q1_time=request.form['1Q_time']
     text="generate only"+ count1+"Multi choice questions on "+course+"for"+stream
@@ -66,7 +66,7 @@ def predict():
     Q6c_count=request.form['6Q_c_count']
     Q6d_count=request.form['6Q_d_count']
     Q6e_count=request.form['6Q_e_count']
-    count6=max(int(Q6b_count),int(Q6a_count))
+    count6=max(int(Q6b_count),int(Q6a_count),int(Q6c_count),int(Q6d_count),int(Q6e_count))
     text="generate "+ str(count6)+"Multi choice questions on each of Prioritization tasks and setting clear goals,Estimation of time required for tasks and setting deadlines,Handling multitasking and managing multiple assignments,Understanding project life cycles, from initiation to completion,Utilization of tools or software related to time and project management."
     result6 = generate(text).split('\n')
 #parameter-7:
