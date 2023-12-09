@@ -1,20 +1,10 @@
-# ui_app.py
-from flask import Flask, render_template, request, jsonify
 import requests
 import google.generativeai as palm
 import base64
 import json
-import pprint
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-@app.route('/predict', methods=['POST'])
 from flask import Flask, request, jsonify
 from bs4 import BeautifulSoup
-import requests
-import json
+
 
 app = Flask(__name__)
 
