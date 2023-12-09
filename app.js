@@ -5,7 +5,7 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:5000/get_mcq', {
+      const response = await fetch('https://mcq-generator-xr5k.onrender.com/get_mcq', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
