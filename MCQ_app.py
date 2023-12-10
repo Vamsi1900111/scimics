@@ -4,18 +4,46 @@ import base64
 import json
 from flask import Flask, request, jsonify
 from bs4 import BeautifulSoup
-
-
 app = Flask(__name__)
 
 @app.route('/get_mcq', methods=['POST'])
 def get_mcq():
-    try:
-        data = request.json  # Assuming the data is sent as JSON from React
+    if request.method == 'POST':
+        inputJson = {
+            "1Q_count": '2',
+            "1Q_time": '2',
+            "2Q_a_count": '2',
+            "2Q_b_count": '2',
+            "2Q_c_count": '2',
+            "2Q_d_count": '2',
+            "2Q_time": '2',
+            "3Q_a_count": '2',
+            "3Q_b_count": '2',
+            "3Q_time": '2',
+            "4Q_a_count": '2',
+            "4Q_b_count": '2',
+            "4Q_time": '2',
+            "5Q_a_count": '2',
+            "5Q_b_count": '2',
+            "5Q_time": '2',
+            "6Q_a_count": '2',
+            "6Q_b_count": '2',
+            "6Q_c_count": '2',
+            "6Q_d_count": '2',
+            "6Q_e_count": '2',
+            "6Q_time": '2',
+            "7Q_a_count": '2',
+            "7Q_b_count": '2',
+            "7Q_time": '2',
+            "course": "CSE",
+            "stream": "Btech"
+        }
+        # data = request.json
+        data = inputJson
+        data = request.json  
         result = MCQ_questions(data)
         return result
-    except Exception as e:
-        return jsonify({'error': str(e)})
+
 def MCQ_questions(data):
     palm.configure(api_key='AIzaSyCpta0zYFZSLw7imatVqW-exaviTfMIqu0')
     def generate(text):
@@ -97,7 +125,7 @@ def MCQ_questions(data):
     p7=get_data(result7,"parameter_7")
     with open("questions_data.json", "w") as json_file:
         json.dumps({'Questions':[p1,p2,p3,p4,p5,p6,p7]}, indent=1)
-    return questions_string,json.dumps({'Questions':[p1,p2,p3,p4,p5,p6,p7]}, indent=1)
-  
+    return json.dumps({'Questions':[p1,p2,p3,p4,p5,p6,p7]}, indent=1)
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5000)  # Change the port if needed
+    app.run(host='0.0.0.0',port=5000,debug=True)  # Change the port if needed
