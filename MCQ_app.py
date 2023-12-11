@@ -9,38 +9,9 @@ app = Flask(__name__)
 @app.route('/get_mcq', methods=['POST'])
 def get_mcq():
     if request.method == 'POST':
-        inputJson = {
-            "1Q_count": '2',
-            "1Q_time": '2',
-            "2Q_a_count": '2',
-            "2Q_b_count": '2',
-            "2Q_c_count": '2',
-            "2Q_d_count": '2',
-            "2Q_time": '2',
-            "3Q_a_count": '2',
-            "3Q_b_count": '2',
-            "3Q_time": '2',
-            "4Q_a_count": '2',
-            "4Q_b_count": '2',
-            "4Q_time": '2',
-            "5Q_a_count": '2',
-            "5Q_b_count": '2',
-            "5Q_time": '2',
-            "6Q_a_count": '2',
-            "6Q_b_count": '2',
-            "6Q_c_count": '2',
-            "6Q_d_count": '2',
-            "6Q_e_count": '2',
-            "6Q_time": '2',
-            "7Q_a_count": '2',
-            "7Q_b_count": '2',
-            "7Q_time": '2',
-            "course": "CSE",
-            "stream": "Btech"
-        }
-        # data = request.json
-        data = inputJson
-        data = request.json  
+        data = request.json
+        # data = inputJson
+        # data = request.json  
         result = MCQ_questions(data)
         return result
 
