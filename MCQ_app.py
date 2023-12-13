@@ -161,8 +161,9 @@ def MCQ_questions(data):
     }
     time=int(Q1_time)+int(Q2_time)+int(Q3_time)+int(Q4_time)+int(Q5_time)+int(Q6_time)+int(Q7_time)
     count=int(count1)+int(count2)+int(count3)+int(count4)+int(count5)+int(count6)+int(count7)
-    with open("Questions.json", "w") as json_file:
-        json.dumps({'MCQ_Questions':[result1,result2,result3,result4,result5,result6,result7]},json_file, indent=1)
-    return json.dumps({'MCQ_Questions':[result1,result2,result3,result4,result5,result6,result7]}, indent=1)
+    data={'MCQ_Questions':[result1,result2,result3,result4,result5,result6,result7]}
+    # with open("Questions.json", "w") as json_file:
+    #     json.dumps(data,json_file, indent=1)
+    return data
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000,debug=True)  # Change the port if needed
