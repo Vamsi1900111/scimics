@@ -13,9 +13,28 @@ def get_mcq():
         result = MCQ_questions(data)
         return result
 def MCQ_questions(data):
+    def split_json(ques_list):
+        try:
+            inn=[]
+            out=[]
+            for i in range(len(ques_list[0])):
+                if ques_list[0][i]=="{":
+                    inn.append(i)
+                if ques_list[0][i]=="}":
+                    out.append(i)
+            l=[]
+            d=ques_list[0]
+            for i,j in zip(inn,out):
+                dk=d[i:j+1]
+                # print(dk)
+                dd=json.loads(dk)
+                l.append(dd)
+            return l
+        except:
+            return ques_list
     palm.configure(api_key='AIzaSyCpta0zYFZSLw7imatVqW-exaviTfMIqu0')
     format="""\n
-    [{
+    {
       "question": "Sample question?",
       "category": "Category1",
       "options": ["Option1", "Option2", "Option3", "Option4"],
@@ -26,7 +45,8 @@ def MCQ_questions(data):
       "category": "Category2",
       "options": ["Option1", "Option2", "Option3", "Option4"],
       "correct_answer": "CorrectOption"
-    }]
+    }
+    //other questions
 """
     def generate(text):
         response = palm.generate_text(prompt=text)
@@ -45,7 +65,7 @@ def MCQ_questions(data):
     result1 = generate(text)
     result1={
         "testname": "Technical Proficiency",
-        "questions":[result1]
+        "questions":split_json([result1])
     }
 #parameter-2:
     Q2_time=data['2Q_time']
@@ -64,7 +84,7 @@ def MCQ_questions(data):
     result2 = generate(text)
     result2={
         "testname": "Communication Skills",
-        "questions":[result2]
+        "questions":split_json([result2])
     }
 #parameter-3:
     Q3_time=data['3Q_time']
@@ -81,7 +101,7 @@ def MCQ_questions(data):
     result3 = generate(text)
     result3={
         "testname": "Cognitive Abilities",
-        "questions":[result3]
+        "questions":split_json([result3])
     }
 
 #parameter-4:
@@ -99,7 +119,7 @@ def MCQ_questions(data):
     result4 = generate(text)
     result4={
         "testname": "Interpersonal and Teamwork Skills",
-        "questions":[result4]
+        "questions":split_json([result4])
     }
 
 #parameter-5:
@@ -117,7 +137,7 @@ def MCQ_questions(data):
     result5 = generate(text)
     result5={
         "testname": "Adaptability and Continuous Learning",
-        "questions":[result5]
+        "questions":split_json([result5])
     } 
 #parameter-6:
     Q6_time=data['6Q_time']
@@ -137,7 +157,7 @@ def MCQ_questions(data):
     result6 = generate(text)
     result6={
         "testname": "Project Management and Time Management",
-        "questions":[result6]
+        "questions":split_json([result6])
     } 
 
 #parameter-7:
@@ -157,13 +177,16 @@ def MCQ_questions(data):
     result7 = generate(text)
     result7={
         "testname": "Professional Etiquette and Interview Preparedness.",
-        "questions":[result7]
+        "questions":split_json([result7])
     }
     time=int(Q1_time)+int(Q2_time)+int(Q3_time)+int(Q4_time)+int(Q5_time)+int(Q6_time)+int(Q7_time)
     count=int(count1)+int(count2)+int(count3)+int(count4)+int(count5)+int(count6)+int(count7)
     data={'MCQ_Questions':[result1,result2,result3,result4,result5,result6,result7]}
-    # with open("Questions.json", "w") as json_file:
-    #     json.dumps(data,json_file, indent=1)
+    try:
+        with open("Questions.json", "w") as json_file:
+            json.dump(data, json_file, indent=1)
+    except:
+        pass
     return data
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000,debug=True)  # Change the port if needed

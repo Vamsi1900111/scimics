@@ -1,46 +1,403 @@
 {
-	"MCQ_Questions": [
-		{
-			"questions": [
-				"```\n[\n  {\n    \"question\": \"What is the full form of CPU?\",\n    \"category\": \"CSEforBtech\",\n    \"options\": [\"Central Processing Unit\", \"Central Processing Unit\", \"Central Processing Unit\", \"Central Processing Unit\"],\n    \"correct_answer\": \"Central Processing Unit\"\n  },\n  {\n    \"question\": \"What is the full form of RAM?\",\n    \"category\": \"CSEforBtech\",\n    \"options\": [\"Random Access Memory\", \"Random Access Memory\", \"Random Access Memory\", \"Random Access Memory\"],\n    \"correct_answer\": \"Random Access Memory\"\n  }\n]\n\n[\n  {\n    \"question\": \"What is the full form of GPU?\",\n    \"category\": \"CSEforBtech\",\n    \"options\": [\"Graphics Processing Unit\", \"Graphics Processing Unit\", \"Graphics Processing Unit\", \"Graphics Processing Unit\"],\n    \"correct_answer\": \"Graphics Processing Unit\"\n  },\n  {\n    \"question\": \"What is the full form of SSD?\",\n    \"category\": \"CSEforBtech\",\n    \"options\": [\"Solid State Drive\", \"Solid State Drive\", \"Solid State Drive\", \"Solid State Drive\"],\n    \"correct_answer\": \"Solid State Drive\"\n  }\n]\n```"
-			],
-			"testname": "Technical Proficiency"
-		},
-		{
-			"questions": [
-				"```\n[\n  {\n    \"question\": \"What are the main points of this article?\",\n    \"category\": \"Reading\",\n    \"options\": [\"The main points are: a, b, c\", \"The main points are: d, e, f\", \"The main points are: g, h, i\", \"The main points are: j, k, l\"],\n    \"correct_answer\": \"The main points are: a, b, c\"\n  },\n  {\n    \"question\": \"Write a short summary of this article.\",\n    \"category\": \"Writing\",\n    \"options\": [\"Summary: a\", \"Summary: b\", \"Summary: c\", \"Summary: d\"],\n    \"correct_answer\": \"Summary: a\"\n  },\n  {\n    \"question\": \"What is the next dialog turn?\",\n    \"category\": \"Speaking\",\n    \"options\": [\"Speaker 1: Hi, how are you?\", \"Speaker 1: Bye, take care!\", \"Speaker 1: Can you help me with something?\", \"Speaker 1: What's your name?\"],\n    \"correct_answer\": \"Speaker 1: Hi, how are you?\"\n  },\n  {\n    \"question\": \"What does the speaker mean?\",\n    \"category\": \"Listening\",\n    \"options\": [\"Speaker means: a\", \"Speaker means: b\", \"Speaker means: c\", \"Speaker means: d\"],\n    \"correct_answer\": \"Speaker means: a\"\n  },\n  {\n    \"question\": \"What are the main points of this article?\",\n    \"category\": \"Reading\",\n    \"options\": [\"The main points are: a, b, c\", \"The main points are: d, e, f\", \"The main points are: g, h, i\", \"The main points are: j, k, l\"],\n    \"correct_answer\": \"The main points are: d, e, f\"\n  },\n  {\n    \"question\": \"Write a short summary of this article.\",\n    \"category\": \"Writing\",\n    \"options\": [\"Summary: a\", \"Summary: b\", \"Summary: c\", \"Summary: d\"],\n    \"correct_answer\": \"Summary: b\"\n  },\n  {\n    \"question\": \"What is the next dialog turn?\",\n    \"category\": \"Speaking\",\n    \"options\": [\"Speaker 1: Hi, how are you?\", \"Speaker 1: Bye, take care!\", \"Speaker 1: Can you help me with something?\", \"Speaker 1: What's your name?\"],\n    \"correct_answer\": \"Speaker 1: Hi, how are you?\"\n  },\n  {\n    \"question\": \"What does the speaker mean?\",\n    \"category\": \"Listening\",\n    \"options\": [\"Speaker means: a\", \"Speaker means: b\", \"Speaker means: c\", \"Speaker means: d\"],\n    \"correct_answer\": \"Speaker means: b\"\n  }\n]\n```"
-			],
-			"testname": "Communication Skills"
-		},
-		{
-			"questions": [
-				"```\n[\n  {\n    \"question\": \"If a train running at the speed of 60 km/hr crosses a pole in 9 seconds, then what is the length of the train?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"324 m\", \"180 m\", \"270 m\", \"150 m\"],\n    \"correct_answer\": \"324 m\"\n  },\n  {\n    \"question\": \"If 'p' is 10% less than 'q', then what percent is 'q' more than 'p'?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"100/9\", \"111/9\", \"121/9\", \"133/9\"],\n    \"correct_answer\": \"111/9\"\n  },\n  {\n    \"question\": \"If 'A' alone can do a work in 15 days and 'B' alone in 20 days, then the number of days in which they can together complete the work is\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"12\", \"15\", \"18\", \"20\"],\n    \"correct_answer\": \"12\"\n  },\n  {\n    \"question\": \"If 'A' can do a piece of work in 8 days and 'B' can do it in 12 days, then the number of days in which they can together complete the work is\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"10 1/3\", \"11 1/9\", \"11 1/3\", \"12 1/9\"],\n    \"correct_answer\": \"11 1/3\"\n  },\n\n  {\n    \"question\": \"If a man walks at 12 kmph, he reaches his destination 1 hour late. If he walks at 15 kmph, he reaches 1 hour early. What is the distance he covers?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"30 km\", \"32 km\", \"35 km\", \"36 km\"],\n    \"correct_answer\": \"36 km\"\n  },\n  {\n    \"question\": \"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"324 m\", \"180 m\", \"270 m\", \"150 m\"],\n    \"correct_answer\": \"324 m\"\n  },\n  {\n    \"question\": \"If 'A' alone can do a work in 15 days and 'B' alone in 20 days, then the number of days in which they can together complete the work is\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"12\", \"15\", \"18\", \"20\"],\n    \"correct_answer\": \"12\"\n  },\n  {\n    \"question\": \"If 'A' can do a piece of work in 8 days and 'B' can do it in 12 days, then the number of days in which they can together complete the work is\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"10 1/3\", \"11 1/9\", \"11 1/3\", \"12 1/9\"],\n    \"correct_answer\": \"11 1/3\"\n  },\n\n  {\n    \"question\": \"A train 180 m long crosses a platform in 15 seconds. The speed of the train is\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"54 km/hr\", \"36 km/hr\", \"45 km/hr\", \"66 km/hr\"],\n    \"correct_answer\": \"45 km/hr\"\n  },\n  {\n    \"question\": \"A train crosses a pole in 10 seconds and a bridge of 200 m in 24 seconds. The speed of the train is\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"45 km/hr\", \"48 km/hr\", \"50 km/hr\", \"52"
-			],
-			"testname": "Cognitive Abilities"
-		},
-		{
-			"questions": [
-				"```\n[\n  {\n    \"question\": \"What are the benefits of participating in group activities?\",\n    \"category\": \"Group Activities\",\n    \"options\": [\"It helps you get to know new people\", \"It helps you learn new skills\", \"It helps you develop your leadership skills\", \"It helps you become more creative\"],\n    \"correct_answer\": \"It helps you learn new skills\"\n  },\n  {\n    \"question\": \"What are some ways to give constructive peer feedback?\",\n    \"category\": \"Peer Feedback\",\n    \"options\": [\"Be specific about what you are observing\", \"Be respectful of the other person's feelings\", \"Focus on the behavior, not the person\", \"Be open to feedback yourself\"],\n    \"correct_answer\": \"Be specific about what you are observing\"\n  },\n  {\n    \"question\": \"What are some challenges of working in a team?\",\n    \"category\": \"Group Activities\",\n    \"options\": [\"Different people have different working styles\", \"It can be difficult to reach consensus\", \"It can be difficult to manage conflict\", \"It can be difficult to stay motivated\"],\n    \"correct_answer\": \"Different people have different working styles\"\n  },\n  {\n    \"question\": \"What are some tips for giving effective presentations?\",\n    \"category\": \"Peer Feedback\",\n    \"options\": [\"Be prepared\", \"Practice your presentation\", \"Engage with your audience\", \"Make eye contact\"],\n    \"correct_answer\": \"Be prepared\"\n  }\n]\n```"
-			],
-			"testname": "Interpersonal and Teamwork Skills"
-		},
-		{
-			"questions": [
-				"```json\n[\n  {\n    \"question\": \"Which of the following is an example of adaptability?\\n\\n(A) Trying a new workout routine\\n(B) Learning a new language\\n(C) Trying a new recipe\\n(D) Taking a new class\",\n    \"category\": \"Adaptability\",\n    \"options\": [\"A\", \"B\", \"C\", \"D\"],\n    \"correct_answer\": \"B\"\n  },\n  {\n    \"question\": \"Which of the following is an example of continuous learning?\\n\\n(A) Taking a college course\\n(B) Reading a new book\\n(C) Attending a conference\\n(D) Taking a class online\",\n    \"category\": \"Continous learning\",\n    \"options\": [\"A\", \"B\", \"C\", \"D\"],\n    \"correct_answer\": \"D\"\n  },\n  {\n    \"question\": \"Which of the following is an example of adaptability?\\n\\n(A) Trying a new workout routine\\n(B) Learning a new language\\n(C) Trying a new recipe\\n(D) Taking a new class\",\n    \"category\": \"Adaptability\",\n    \"options\": [\"A\", \"B\", \"C\", \"D\"],\n    \"correct_answer\": \"A\"\n  },\n  {\n    \"question\": \"Which of the following is an example of continuous learning?\\n\\n(A) Taking a college course\\n(B) Reading a new book\\n(C) Attending a conference\\n(D) Taking a class online\",\n    \"category\": \"Continous learning\",\n    \"options\": [\"A\", \"B\", \"C\", \"D\"],\n    \"correct_answer\": \"B\"\n  }\n]\n```"
-			],
-			"testname": "Adaptability and Continuous Learning"
-		},
-		{
-			"questions": [
-				"```json\n[\n  {\n    \"question\": \"What is an important step in prioritizing tasks?\",\n    \"category\": \"Prioritization tasks and setting clear goals.\",\n    \"options\": [\"A. Break down large tasks into smaller ones.\", \"B. Determine the most important tasks.\", \"C. Determine the least important tasks.\", \"D. All of the above.\"],\n    \"correct_answer\": \"D\"\n  },\n  {\n    \"question\": \"What is a good way to set deadlines for tasks?\",\n    \"category\": \"Estimation of time required for tasks and setting deadlines.\",\n    \"options\": [\"A. Add a buffer to the estimated time.\", \"B. Add a buffer to the actual time.\", \"C. Add a buffer to the due date.\", \"D. All of the above.\"],\n    \"correct_answer\": \"A\"\n  },\n  {\n    \"question\": \"What is a good way to handle multitasking?\",\n    \"category\": \"Handling multitasking and managing multiple assignments.\",\n    \"options\": [\"A. Focus on one task at a time.\", \"B. Work on multiple tasks at the same time.\", \"C. Work on the most important task first.\", \"D. All of the above.\"],\n    \"correct_answer\": \"C\"\n  },\n  {\n    \"question\": \"What is the first phase of the project life cycle?\",\n    \"category\": \"Understanding project life cycles, from initiation to completion.\",\n    \"options\": [\"A. Planning\", \"B. Execution\", \"C. Closure\", \"D. Implementation\"],\n    \"correct_answer\": \"A\"\n  },\n  {\n    \"question\": \"What is a tool that can be used for project management?\",\n    \"category\": \"Utilization of tools or software related to time and project management.\",\n    \"options\": [\"A. Microsoft Project\", \"B. Google Sheets\", \"C. Trello\", \"D. All of the above\"],\n    \"correct_answer\": \"D\"\n  },\n  {\n    \"question\": \"What is an important step in prioritizing tasks?\",\n    \"category\": \"Prioritization tasks and setting clear goals.\",\n    \"options\": [\"A. Break down large tasks into smaller ones.\", \"B. Determine the most important tasks.\", \"C. Determine the least important tasks.\", \"D. All of the above.\"],\n    \"correct_answer\": \"A\"\n  },\n  {\n    \"question\": \"What is a good way to set deadlines for tasks?\",\n    \"category\": \"Estimation of time required for tasks and setting deadlines.\",\n    \"options\": [\"A. Add a buffer to the estimated time.\", \"B. Add a buffer to the actual time.\", \"C. Add a buffer to the due date.\", \"D. All of the above.\"],\n    \"correct_answer\": \"B\"\n  },\n  {\n    \"question\": \"What is a good way to handle multitasking?\",\n    \"category\": \"Handling multitasking and managing multiple assignments.\",\n    \"options\": [\"A. Focus on one task at a time.\", \"B. Work on multiple tasks at the same time.\", \"C. Work on the most important task first.\", \"D. All of the above.\"],\n    \"correct_answer\": \"C\"\n  },\n  {\n    \"question\": \"What is the first phase of the project life cycle?\",\n    \"category\": \"Understanding project life cycles, from initiation to completion.\",\n    \"options\": [\"A. Planning\", \"B. Execution\", \"C. Closure\", \"D. Implementation\"],\n    \"correct_answer\": \"A\"\n  },\n  {\n    \"question\": \"What is a tool that can be used for project management?\",\n    \"category\": \"Utilization of tools or software related to time and project management.\",\n    \"options\": [\"A. Microsoft Project\", \"B. Google Sheets\", \"C. Trello\", \"D. All of the above\"],\n    \"correct_answer\": \"D\"\n  }\n]\n```"
-			],
-			"testname": "Project Management and Time Management"
-		},
-		{
-			"questions": [
-				"```json\n[\n  {\n    \"question\": \"You are sitting in a group interview and someone's phone rings. What should you do?\",\n    \"category\": \"Scenario-based questions on professional conduct\",\n    \"options\": [\"A. Ignore it\", \"B. Answer it\", \"C. Turn it off\", \"D. Ask them to turn it off\"],\n    \"correct_answer\": \"C\"\n  },\n  {\n    \"question\": \"You are on a video interview with a potential employer and your internet connection cuts out. What should you do?\",\n    \"category\": \"Scenario-based questions on professional conduct\",\n    \"options\": [\"A. Wait for the connection to come back\", \"B. Apologise and end the interview\", \"C. Apologise and reschedule the interview\", \"D. Continue the interview as best you can\"],\n    \"correct_answer\": \"C\"\n  },\n  {\n    \"question\": \"How do you set up a mock interview session on our platform?\",\n    \"category\": \"Setting up Mock interview sessions on our Platform\",\n    \"options\": [\"A. Go to the 'Mock Interviews' page and click 'Create a Mock Interview'\", \"B. Go to the 'Interviews' page and click 'Create a Mock Interview'\", \"C. Go to the 'Mock Interviews' page and click 'Join a Mock Interview'\", \"D. Go to the 'Interviews' page and click 'Join a Mock Interview'\"],\n    \"correct_answer\": \"A\"\n  },\n  {\n    \"question\": \"How do you invite someone to a mock interview session on our platform?\",\n    \"category\": \"Setting up Mock interview sessions on our Platform\",\n    \"options\": [\"A. Go to the 'Mock Interviews' page and click 'Invite a Friend'\", \"B. Go to the 'Interviews' page and click 'Invite a Friend'\", \"C. Go to the 'Mock Interviews' page and click 'Join a Mock Interview'\", \"D. Go to the 'Interviews' page and click 'Join a Mock Interview'\"],\n    \"correct_answer\": \"A\"\n  }\n]\n```"
-			],
-			"testname": "Professional Etiquette and Interview Preparedness."
-		}
-	]
+ "MCQ_Questions": [
+  {
+   "testname": "Technical Proficiency",
+   "questions": [
+    {
+     "question": "What is the full form of RAM?",
+     "category": "CSEforBtech",
+     "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Random Access Module",
+      "Read Access Module"
+     ],
+     "correct_answer": "Random Access Memory"
+    },
+    {
+     "question": "What is the difference between RAM and ROM?",
+     "category": "CSEforBtech",
+     "options": [
+      "ROM is permanent storage while RAM is volatile storage",
+      "RAM is permanent storage while ROM is volatile storage",
+      "ROM is volatile storage while RAM is permanent storage",
+      "RAM is volatile storage while ROM is permanent storage"
+     ],
+     "correct_answer": "ROM is permanent storage while RAM is volatile storage"
+    },
+    {
+     "question": "What is the difference between TCP and UDP?",
+     "category": "CSEforBtech",
+     "options": [
+      "TCP is connection-oriented while UDP is connectionless",
+      "TCP is connectionless while UDP is connection-oriented",
+      "TCP is reliable while UDP is unreliable",
+      "UDP is reliable while TCP is unreliable"
+     ],
+     "correct_answer": "TCP is connection-oriented while UDP is connectionless"
+    },
+    {
+     "question": "What is the purpose of a firewall?",
+     "category": "CSEforBtech",
+     "options": [
+      "To protect a network from unauthorized access",
+      "To protect a network from authorized access",
+      "To protect a network from malicious software",
+      "To protect a network from legitimate software"
+     ],
+     "correct_answer": "To protect a network from unauthorized access"
+    }
+   ]
+  },
+  {
+   "testname": "Communication Skills",
+   "questions": [
+    {
+     "question": "What is the main purpose of the speaker?",
+     "category": "Listening",
+     "options": [
+      "To inform",
+      "To persuade",
+      "To entertain",
+      "To instruct"
+     ],
+     "correct_answer": "To inform"
+    },
+    {
+     "question": "What is the main idea of the passage?",
+     "category": "Reading",
+     "options": [
+      "The importance of exercise",
+      "The history of the United States",
+      "The benefits of meditation",
+      "The dangers of smoking"
+     ],
+     "correct_answer": "The importance of exercise"
+    },
+    {
+     "question": "What is the best way to start a persuasive essay?",
+     "category": "Writing",
+     "options": [
+      "With a strong thesis statement",
+      "With a hook",
+      "With a list of arguments",
+      "With a definition of the term"
+     ],
+     "correct_answer": "With a strong thesis statement"
+    },
+    {
+     "question": "What is the best way to end a speech?",
+     "category": "Speaking",
+     "options": [
+      "With a call to action",
+      "With a summary",
+      "With a joke",
+      "With a question"
+     ],
+     "correct_answer": "With a call to action"
+    },
+    {
+     "question": "What is the difference between a fact and an opinion?",
+     "category": "Listening",
+     "options": [
+      "A fact is something that is true",
+      "An opinion is something that is true",
+      "A fact is something that is not true",
+      "An opinion is something that is not true"
+     ],
+     "correct_answer": "A fact is something that is true"
+    },
+    {
+     "question": "What is the main difference between fiction and nonfiction?",
+     "category": "Reading",
+     "options": [
+      "Fiction is made-up",
+      "Nonfiction is made-up",
+      "Fiction is true",
+      "Nonfiction is true"
+     ],
+     "correct_answer": "Fiction is made-up"
+    },
+    {
+     "question": "What is the best way to organize your writing?",
+     "category": "Writing",
+     "options": [
+      "With a strong thesis statement",
+      "With a hook",
+      "With a list of arguments",
+      "With a definition of the term"
+     ],
+     "correct_answer": "With a strong thesis statement"
+    },
+    {
+     "question": "What is the best way to deliver a speech?",
+     "category": "Speaking",
+     "options": [
+      "With a strong voice",
+      "With a clear message",
+      "With eye contact",
+      "With confidence"
+     ],
+     "correct_answer": "With a strong voice"
+    }
+   ]
+  },
+  {
+   "testname": "Cognitive Abilities",
+   "questions": [
+    "```json\n[\n  {\n    \"question\": \"A train leaves a station at 10:00 AM and travels at a speed of 60 kmph. Another train leaves the same station at 11:00 AM and travels at a speed of 75 kmph. At what time will the second train overtake the first train?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"1:30 PM\", \"1:45 PM\", \"2:00 PM\", \"2:15 PM\"],\n    \"correct_answer\": \"1:45 PM\"\n  },\n  {\n    \"question\": \"John is twice as old as his brother. If John is 10 years old, how old is his brother?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"5 years\", \"6 years\", \"7 years\", \"8 years\"],\n    \"correct_answer\": \"5 years\"\n  },\n  {\n    \"question\": \"A man walks 10 km to the east and then 10 km to the west. What is his final displacement?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"0 km\", \"10 km\", \"20 km\", \"40 km\"],\n    \"correct_answer\": \"0 km\"\n  },\n  {\n    \"question\": \"If '+' means 'divide by', '-' means 'add', '*' means 'subtract', and '/' means 'multiply', then what is the value of 15*12+15-20/3?\n    \",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"-165\", \"-135\", \"-125\", \"-115\"],\n    \"correct_answer\": \"-125\"\n  },\n  {\n    \"question\": \"A train leaves a station at 10:00 AM and travels at a speed of 60 kmph. Another train leaves the same station at 11:00 AM and travels at a speed of 75 kmph. At what time will the second train overtake the first train?\",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"1:30 PM\", \"1:45 PM\", \"2:00 PM\", \"2:15 PM\"],\n    \"correct_answer\": \"1:45 PM\"\n  },\n  {\n    \"question\": \"John is twice as old as his brother. If John is 10 years old, how old is his brother?\",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"5 years\", \"6 years\", \"7 years\", \"8 years\"],\n    \"correct_answer\": \"5 years\"\n  },\n  {\n    \"question\": \"A man walks 10 km to the east and then 10 km to the west. What is his final displacement?\",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"0 km\", \"10 km\", \"20 km\", \"40 km\"],\n    \"correct_answer\": \"0 km\"\n  },\n  {\n    \"question\": \"If '+' means 'divide by', '-' means 'add', '*' means 'subtract', and '/' means 'multiply', then what is the value of 15*12+15-20/3?\n    \",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"-165\", \"-135\", \"-125\", \"-115\"],\n    \"correct_answer\": \"-125\"\n  }\n]\n```"
+   ]
+  },
+  {
+   "testname": "Interpersonal and Teamwork Skills",
+   "questions": [
+    {
+     "question": "What is the most important aspect of group activities?",
+     "category": "Group Activities",
+     "options": [
+      "Communication",
+      "Collaboration",
+      "Leadership",
+      "Trust"
+     ],
+     "correct_answer": "Communication"
+    },
+    {
+     "question": "What is the best way to give peer feedback?",
+     "category": "Peer Feedback",
+     "options": [
+      "Be direct",
+      "Be honest",
+      "Be constructive",
+      "Be specific"
+     ],
+     "correct_answer": "Be direct"
+    },
+    {
+     "question": "What is the best way to resolve conflict in a group?",
+     "category": "Group Activities",
+     "options": [
+      "Avoid conflict",
+      "Talk it out",
+      "Give up",
+      "Compromize"
+     ],
+     "correct_answer": "Talk it out"
+    },
+    {
+     "question": "What is the best way to support your teammates?",
+     "category": "Peer Feedback",
+     "options": [
+      "Be positive",
+      "Be encouraging",
+      "Be helpful",
+      "Be supportive"
+     ],
+     "correct_answer": "Be positive"
+    }
+   ]
+  },
+  {
+   "testname": "Adaptability and Continuous Learning",
+   "questions": [
+    {
+     "question": "How do you manage the uncertainty of change?",
+     "category": "Adaptability",
+     "options": [
+      "Accept change as inevitable",
+      "Rigid adherence to structure",
+      "Be flexible",
+      "Resist change at all costs"
+     ],
+     "correct_answer": "Accept change as inevitable"
+    },
+    {
+     "question": "How do you handle unexpected events?",
+     "category": "Adaptability",
+     "options": [
+      "Plan for the worst",
+      "Expect the unexpected",
+      "Be prepared",
+      "Ignore them and hope they go away"
+     ],
+     "correct_answer": "Expect the unexpected"
+    },
+    {
+     "question": "What is the best way to learn new skills?",
+     "category": "Continous learning",
+     "options": [
+      "Take online courses",
+      "Read books",
+      "Attend workshops",
+      "Practice what you learn"
+     ],
+     "correct_answer": "Practice what you learn"
+    },
+    {
+     "question": "How do you stay up-to-date on your field?",
+     "category": "Continous learning",
+     "options": [
+      "Read industry publications",
+      "Attend conferences",
+      "Network with other professionals",
+      "Take online courses"
+     ],
+     "correct_answer": "Read industry publications"
+    }
+   ]
+  },
+  {
+   "testname": "Project Management and Time Management",
+   "questions": [
+    {
+     "question": "Which of the following is a technique to prioritize tasks?\n(A) Critical path method\n(B) Pareto principle\n(C) Both A and B\n(D) None of the above",
+     "category": "Prioritization tasks and setting clear goals.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "C"
+    },
+    {
+     "question": "Which of the following is NOT a part of the project life cycle?\n(A) Initiation\n(B) Execution\n(C) Testing\n(D) Closure",
+     "category": "Understanding project life cycles, from initiation to completion.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "D"
+    },
+    {
+     "question": "Which of the following is NOT a tool or software related to time and project management?\n(A) Microsoft Project\n(B) Trello\n(C) Google Sheets\n(D) Adobe Photoshop",
+     "category": "Utilization of tools or software related to time and project management.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "D"
+    },
+    {
+     "question": "Which of the following is NOT a good estimation technique for task duration?\n(A) Analogy\n(B) Parametric\n(C) Monte Carlo simulation\n(D) Delphi method",
+     "category": "Estimation of time required for tasks and setting deadlines.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "C"
+    },
+    {
+     "question": "When handling multiple assignments, which of the following techniques is NOT recommended?\n(A) Break down large tasks into smaller ones\n(B) Work on the most important tasks first\n(C) Schedule time for each task\n(D) Multitask as much as possible",
+     "category": "Handling multitasking and managing multiple assignments.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "D"
+    },
+    {
+     "question": "How can you set clear goals for a project?\n(A) By defining the purpose of the project\n(B) By defining the scope of the project\n(C) Both A and B\n(D) None of the above",
+     "category": "Prioritization tasks and setting clear goals.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "C"
+    },
+    {
+     "question": "Which of the following is NOT a good practice for setting deadlines?\n(A) Set deadlines that are too ambitious\n(B) Set deadlines that are too lenient\n(C) Communicate deadlines to all stakeholders\n(D) Review deadlines regularly",
+     "category": "Estimation of time required for tasks and setting deadlines.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "A"
+    },
+    {
+     "question": "Which of the following is NOT a good technique for handling multitasking?\n(A) Break down large tasks into smaller ones\n(B) Work on the most important tasks first\n(C) Schedule time for each task\n(D) Multitask as much as possible",
+     "category": "Handling multitasking and managing multiple assignments.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "D"
+    },
+    {
+     "question": "Which of the following is NOT a part of the project life cycle?\n(A) Initiation\n(B) Execution\n(C) Testing\n(D) Closure",
+     "category": "Understanding project life cycles, from initiation to completion.",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct_answer": "D"
+    }
+   ]
+  },
+  {
+   "testname": "Professional Etiquette and Interview Preparedness.",
+   "questions": [
+    {
+     "question": "You are a manager and you are interviewing a candidate for a technical position. The candidate is 10 minutes late for the interview. What should you do?",
+     "category": "Scenario-based questions on professional conduct",
+     "options": [
+      "Apologize for the wait and ask the candidate to start their presentation.",
+      "Ask the candidate to wait outside until you are ready.",
+      "Cancel the interview.",
+      "Ask the candidate to reschedule."
+     ],
+     "correct_answer": "Apologize for the wait and ask the candidate to start their presentation."
+    },
+    {
+     "question": "You are a job seeker and you have been invited to a mock interview session on our Platform. What should you do before the session?",
+     "category": "Setting up Mock interview sessions on our Platform",
+     "options": [
+      "Review the interview rubric and practice answering the questions.",
+      "Set up an alarm to remind yourself of the interview time.",
+      "Dress professionally and arrive on time for the session.",
+      "All of the above."
+     ],
+     "correct_answer": "All of the above."
+    },
+    {
+     "question": "You are interviewing for a job and the interviewer asks you, \"Why should we hire you?\" What should you say?",
+     "category": "Scenario-based questions on professional conduct",
+     "options": [
+      "I am a hard worker and I am always willing to learn new things.",
+      "I am a team player and I am always willing to help others.",
+      "I am a quick learner and I am always up for a challenge.",
+      "All of the above."
+     ],
+     "correct_answer": "All of the above."
+    },
+    {
+     "question": "You are setting up a mock interview session on our Platform. What should you do?",
+     "category": "Setting up Mock interview sessions on our Platform",
+     "options": [
+      "Choose a topic for the interview.",
+      "Set up a time and date for the interview.",
+      "Invite the candidate to the interview.",
+      "All of the above."
+     ],
+     "correct_answer": "All of the above."
+    }
+   ]
+  }
+ ]
 }
