@@ -3,7 +3,7 @@ import google.generativeai as palm
 import base64
 import json
 from flask_cors import CORS
-from flask import Flask, request, jsonify
+from flask import Flask,request, jsonify
 from bs4 import BeautifulSoup
 app = Flask(__name__)
 CORS(app)
@@ -122,7 +122,6 @@ def MCQ_questions(data):
         "testname": "Interpersonal and Teamwork Skills",
         "questions":split_json([result4])
     }
-
 #parameter-5:
     Q5_time=data['5Q_time']
     Q5a_count=data['5Q_a_count']
