@@ -4,6 +4,7 @@ const App = () => {
   const [result, setResult] = useState('');
 
   const fetchData = async () => {
+  
     try {
       const response = await fetch('https://mcq-generator-xr5k.onrender.com/get_mcq', {
         method: 'POST',

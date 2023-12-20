@@ -2,10 +2,11 @@ import requests
 import google.generativeai as palm
 import base64
 import json
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 from bs4 import BeautifulSoup
 app = Flask(__name__)
-
+CORS(app)
 @app.route('/get_mcq', methods=['POST'])
 def get_mcq():
     if request.method == 'POST':
