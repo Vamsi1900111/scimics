@@ -4,48 +4,48 @@
    "testname": "Technical Proficiency",
    "questions": [
     {
-     "question": "What is the full form of RAM?",
+     "question": "What is the difference between a class and an object?",
      "category": "CSEforBtech",
      "options": [
-      "Random Access Memory",
-      "Read Access Memory",
-      "Random Access Module",
-      "Read Access Module"
+      "A class is a blueprint for an object",
+      "An object is a blueprint for a class",
+      "A class is a physical entity",
+      "An object is a physical entity"
      ],
-     "correct_answer": "Random Access Memory"
+     "correct_answer": "A class is a blueprint for an object"
     },
     {
-     "question": "What is the difference between RAM and ROM?",
+     "question": "What is the purpose of a constructor in Java?",
      "category": "CSEforBtech",
      "options": [
-      "ROM is permanent storage while RAM is volatile storage",
-      "RAM is permanent storage while ROM is volatile storage",
-      "ROM is volatile storage while RAM is permanent storage",
-      "RAM is volatile storage while ROM is permanent storage"
+      "To initialize the state of an object",
+      "To create a new object",
+      "To call a method",
+      "To return a value"
      ],
-     "correct_answer": "ROM is permanent storage while RAM is volatile storage"
+     "correct_answer": "To initialize the state of an object"
     },
     {
-     "question": "What is the difference between TCP and UDP?",
+     "question": "What is the difference between a compiler and an interpreter?",
      "category": "CSEforBtech",
      "options": [
-      "TCP is connection-oriented while UDP is connectionless",
-      "TCP is connectionless while UDP is connection-oriented",
-      "TCP is reliable while UDP is unreliable",
-      "UDP is reliable while TCP is unreliable"
+      "A compiler translates a program into machine code",
+      "An interpreter translates a program into bytecode",
+      "A compiler runs a program",
+      "An interpreter runs a program"
      ],
-     "correct_answer": "TCP is connection-oriented while UDP is connectionless"
+     "correct_answer": "A compiler translates a program into machine code"
     },
     {
-     "question": "What is the purpose of a firewall?",
+     "question": "What is the difference between a procedural language and an object-oriented language?",
      "category": "CSEforBtech",
      "options": [
-      "To protect a network from unauthorized access",
-      "To protect a network from authorized access",
-      "To protect a network from malicious software",
-      "To protect a network from legitimate software"
+      "Procedural languages are more efficient",
+      "Object-oriented languages are more efficient",
+      "Procedural languages are easier to learn",
+      "Object-oriented languages are easier to learn"
      ],
-     "correct_answer": "To protect a network from unauthorized access"
+     "correct_answer": "Object-oriented languages are easier to learn"
     }
    ]
   },
@@ -53,147 +53,223 @@
    "testname": "Communication Skills",
    "questions": [
     {
-     "question": "What is the main purpose of the speaker?",
+     "question": "What is the difference between active and passive listening?",
      "category": "Listening",
      "options": [
-      "To inform",
-      "To persuade",
-      "To entertain",
-      "To instruct"
+      "Active listening is when you are actively engaged in the conversation, while passive listening is when you are not paying attention.",
+      "Active listening is when you are not paying attention, while passive listening is when you are actively engaged in the conversation.",
+      "Active listening is when you are listening to the other person's words, while passive listening is when you are listening to their tone of voice.",
+      "Active listening is when you are listening to the other person's tone of voice, while passive listening is when you are listening to their words."
      ],
-     "correct_answer": "To inform"
+     "correct_answer": "Active listening is when you are actively engaged in the conversation, while passive listening is when you are not paying attention."
     },
     {
-     "question": "What is the main idea of the passage?",
+     "question": "Which of the following is not a type of reading comprehension strategy: skimming, scanning, or decoding?",
      "category": "Reading",
      "options": [
-      "The importance of exercise",
-      "The history of the United States",
-      "The benefits of meditation",
-      "The dangers of smoking"
+      "Skimming",
+      "Scanning",
+      "Decoding",
+      "All of the above"
      ],
-     "correct_answer": "The importance of exercise"
+     "correct_answer": "Decoding"
     },
     {
-     "question": "What is the best way to start a persuasive essay?",
+     "question": "What is the best way to improve your writing skills?",
      "category": "Writing",
      "options": [
-      "With a strong thesis statement",
-      "With a hook",
-      "With a list of arguments",
-      "With a definition of the term"
+      "Read more, write more, and get feedback on your writing.",
+      "Read more, write less, and get feedback on your writing.",
+      "Read less, write more, and get feedback on your writing.",
+      "Read less, write less, and get feedback on your writing."
      ],
-     "correct_answer": "With a strong thesis statement"
+     "correct_answer": "Read more, write more, and get feedback on your writing."
     },
     {
-     "question": "What is the best way to end a speech?",
+     "question": "What is the best way to improve your speaking skills?",
      "category": "Speaking",
      "options": [
-      "With a call to action",
-      "With a summary",
-      "With a joke",
-      "With a question"
+      "Practice speaking in front of a mirror, record yourself speaking, and get feedback on your speaking.",
+      "Practice speaking in front of a mirror, record yourself speaking, and don't get feedback on your speaking.",
+      "Practice speaking in front of a mirror, don't record yourself speaking, and get feedback on your speaking.",
+      "Practice speaking in front of a mirror, don't record yourself speaking, and don't get feedback on your speaking."
      ],
-     "correct_answer": "With a call to action"
+     "correct_answer": "Practice speaking in front of a mirror, record yourself speaking, and get feedback on your speaking."
     },
     {
-     "question": "What is the difference between a fact and an opinion?",
-     "category": "Listening",
-     "options": [
-      "A fact is something that is true",
-      "An opinion is something that is true",
-      "A fact is something that is not true",
-      "An opinion is something that is not true"
-     ],
-     "correct_answer": "A fact is something that is true"
-    },
-    {
-     "question": "What is the main difference between fiction and nonfiction?",
-     "category": "Reading",
-     "options": [
-      "Fiction is made-up",
-      "Nonfiction is made-up",
-      "Fiction is true",
-      "Nonfiction is true"
-     ],
-     "correct_answer": "Fiction is made-up"
-    },
-    {
-     "question": "What is the best way to organize your writing?",
+     "question": "What is the difference between a formal and an informal email?",
      "category": "Writing",
      "options": [
-      "With a strong thesis statement",
-      "With a hook",
-      "With a list of arguments",
-      "With a definition of the term"
+      "Formal emails are written in a more structured and professional way, while informal emails are written in a more casual and relaxed way.",
+      "Formal emails are written in a more casual and relaxed way, while informal emails are written in a more structured and professional way.",
+      "Formal emails are written in a more creative and expressive way, while informal emails are written in a more structured and professional way.",
+      "Formal emails are written in a more structured and professional way, while informal emails are written in a more creative and expressive way."
      ],
-     "correct_answer": "With a strong thesis statement"
+     "correct_answer": "Formal emails are written in a more structured and professional way, while informal emails are written in a more casual and relaxed way."
     },
     {
-     "question": "What is the best way to deliver a speech?",
+     "question": "What is the best way to start a conversation?",
      "category": "Speaking",
      "options": [
-      "With a strong voice",
-      "With a clear message",
-      "With eye contact",
-      "With confidence"
+      "Make eye contact, smile, and introduce yourself.",
+      "Make eye contact, frown, and introduce yourself.",
+      "Don't make eye contact, smile, and introduce yourself.",
+      "Don't make eye contact, frown, and introduce yourself."
      ],
-     "correct_answer": "With a strong voice"
+     "correct_answer": "Make eye contact, smile, and introduce yourself."
+    },
+    {
+     "question": "What is the best way to end a conversation?",
+     "category": "Speaking",
+     "options": [
+      "Thank the other person for their time, and say goodbye.",
+      "Thank the other person for their time, and don't say goodbye.",
+      "Don't thank the other person for their time, and say goodbye.",
+      "Don't thank the other person for their time, and don't say goodbye."
+     ],
+     "correct_answer": "Thank the other person for their time, and say goodbye."
     }
    ]
   },
   {
    "testname": "Cognitive Abilities",
    "questions": [
-    "```json\n[\n  {\n    \"question\": \"A train leaves a station at 10:00 AM and travels at a speed of 60 kmph. Another train leaves the same station at 11:00 AM and travels at a speed of 75 kmph. At what time will the second train overtake the first train?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"1:30 PM\", \"1:45 PM\", \"2:00 PM\", \"2:15 PM\"],\n    \"correct_answer\": \"1:45 PM\"\n  },\n  {\n    \"question\": \"John is twice as old as his brother. If John is 10 years old, how old is his brother?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"5 years\", \"6 years\", \"7 years\", \"8 years\"],\n    \"correct_answer\": \"5 years\"\n  },\n  {\n    \"question\": \"A man walks 10 km to the east and then 10 km to the west. What is his final displacement?\",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"0 km\", \"10 km\", \"20 km\", \"40 km\"],\n    \"correct_answer\": \"0 km\"\n  },\n  {\n    \"question\": \"If '+' means 'divide by', '-' means 'add', '*' means 'subtract', and '/' means 'multiply', then what is the value of 15*12+15-20/3?\n    \",\n    \"category\": \"Quantitative Aptitude\",\n    \"options\": [\"-165\", \"-135\", \"-125\", \"-115\"],\n    \"correct_answer\": \"-125\"\n  },\n  {\n    \"question\": \"A train leaves a station at 10:00 AM and travels at a speed of 60 kmph. Another train leaves the same station at 11:00 AM and travels at a speed of 75 kmph. At what time will the second train overtake the first train?\",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"1:30 PM\", \"1:45 PM\", \"2:00 PM\", \"2:15 PM\"],\n    \"correct_answer\": \"1:45 PM\"\n  },\n  {\n    \"question\": \"John is twice as old as his brother. If John is 10 years old, how old is his brother?\",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"5 years\", \"6 years\", \"7 years\", \"8 years\"],\n    \"correct_answer\": \"5 years\"\n  },\n  {\n    \"question\": \"A man walks 10 km to the east and then 10 km to the west. What is his final displacement?\",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"0 km\", \"10 km\", \"20 km\", \"40 km\"],\n    \"correct_answer\": \"0 km\"\n  },\n  {\n    \"question\": \"If '+' means 'divide by', '-' means 'add', '*' means 'subtract', and '/' means 'multiply', then what is the value of 15*12+15-20/3?\n    \",\n    \"category\": \"Analytical Reasoning\",\n    \"options\": [\"-165\", \"-135\", \"-125\", \"-115\"],\n    \"correct_answer\": \"-125\"\n  }\n]\n```"
+    {
+     "question": "Question1",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "Option1",
+      "Option2",
+      "Option3",
+      "Option4"
+     ],
+     "correct_answer": "CorrectOption"
+    },
+    {
+     "question": "Question2",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "Option1",
+      "Option2",
+      "Option3",
+      "Option4"
+     ],
+     "correct_answer": "CorrectOption"
+    },
+    {
+     "question": "Question3",
+     "category": "Analytical Reasoning",
+     "options": [
+      "Option1",
+      "Option2",
+      "Option3",
+      "Option4"
+     ],
+     "correct_answer": "CorrectOption"
+    },
+    {
+     "question": "Question4",
+     "category": "Analytical Reasoning",
+     "options": [
+      "Option1",
+      "Option2",
+      "Option3",
+      "Option4"
+     ],
+     "correct_answer": "CorrectOption"
+    }
    ]
   },
   {
    "testname": "Interpersonal and Teamwork Skills",
    "questions": [
     {
-     "question": "What is the most important aspect of group activities?",
+     "question": "Which of the following is not a good way to resolve conflict in a group setting?",
      "category": "Group Activities",
      "options": [
-      "Communication",
-      "Collaboration",
-      "Leadership",
-      "Trust"
+      "Avoid the person",
+      "Talk it out",
+      "Apologize",
+      "Be assertive"
      ],
-     "correct_answer": "Communication"
+     "correct_answer": "Avoid the person"
     },
     {
-     "question": "What is the best way to give peer feedback?",
+     "question": "How can you give feedback to a teammate in a constructive way?",
      "category": "Peer Feedback",
      "options": [
-      "Be direct",
-      "Be honest",
-      "Be constructive",
-      "Be specific"
+      "Be specific",
+      "Be negative",
+      "Be vague",
+      "Be indirect"
      ],
-     "correct_answer": "Be direct"
+     "correct_answer": "Be specific"
     },
     {
-     "question": "What is the best way to resolve conflict in a group?",
+     "question": "Which of the following is not a good way to contribute to a group project?",
      "category": "Group Activities",
      "options": [
-      "Avoid conflict",
+      "Share your ideas",
+      "Do your share of the work",
+      "Be late to meetings",
+      "Be absent from meetings"
+     ],
+     "correct_answer": "Be absent from meetings"
+    },
+    {
+     "question": "How can you help your teammates feel more comfortable giving feedback?",
+     "category": "Peer Feedback",
+     "options": [
+      "Make it clear that feedback is welcome",
+      "Make it clear that feedback is not welcome",
+      "Be critical",
+      "Be defensive"
+     ],
+     "correct_answer": "Make it clear that feedback is welcome"
+    },
+    {
+     "question": "What is the best way to resolve a conflict with a teammate?",
+     "category": "Group Activities",
+     "options": [
+      "Avoid the person",
       "Talk it out",
-      "Give up",
-      "Compromize"
+      "Apologize",
+      "Be assertive"
      ],
      "correct_answer": "Talk it out"
     },
     {
-     "question": "What is the best way to support your teammates?",
+     "question": "How can you help a teammate who is struggling?",
      "category": "Peer Feedback",
      "options": [
-      "Be positive",
-      "Be encouraging",
-      "Be helpful",
-      "Be supportive"
+      "Offer to help",
+      "Ignore them",
+      "Be critical",
+      "Be defensive"
      ],
-     "correct_answer": "Be positive"
+     "correct_answer": "Offer to help"
+    },
+    {
+     "question": "What is the best way to give feedback to a teammate?",
+     "category": "Peer Feedback",
+     "options": [
+      "Be specific",
+      "Be negative",
+      "Be vague",
+      "Be indirect"
+     ],
+     "correct_answer": "Be specific"
+    },
+    {
+     "question": "How can you make your teammates feel more comfortable giving feedback?",
+     "category": "Peer Feedback",
+     "options": [
+      "Make it clear that feedback is welcome",
+      "Make it clear that feedback is not welcome",
+      "Be critical",
+      "Be defensive"
+     ],
+     "correct_answer": "Make it clear that feedback is welcome"
     }
    ]
   },
@@ -201,48 +277,48 @@
    "testname": "Adaptability and Continuous Learning",
    "questions": [
     {
-     "question": "How do you manage the uncertainty of change?",
+     "question": "What is the ability to adjust to change?\nSelect from the following:\n[i] adaptivity\n[ii] flexibility\n[iii] agility\n[iv] adaptability",
      "category": "Adaptability",
      "options": [
-      "Accept change as inevitable",
-      "Rigid adherence to structure",
-      "Be flexible",
-      "Resist change at all costs"
+      "i",
+      "ii",
+      "iii",
+      "iv"
      ],
-     "correct_answer": "Accept change as inevitable"
+     "correct_answer": "iv"
     },
     {
-     "question": "How do you handle unexpected events?",
+     "question": "What are the four dimensions of agility?\nSelect from the following:\n[i] people, process, strategy, and technology\n[ii] people, process, structure, and strategy\n[iii] people, process, structure, and technology\n[iv] people, process, knowledge, and technology",
      "category": "Adaptability",
      "options": [
-      "Plan for the worst",
-      "Expect the unexpected",
-      "Be prepared",
-      "Ignore them and hope they go away"
+      "i",
+      "ii",
+      "iii",
+      "iv"
      ],
-     "correct_answer": "Expect the unexpected"
+     "correct_answer": "ii"
     },
     {
-     "question": "What is the best way to learn new skills?",
+     "question": "What are the 3 stages of continuous learning?\nSelect from the following:\n[i] observe, reflect, and act\n[ii] observe, analyze, and act\n[iii] observe, reflect, and change\n[iv] observe, analyze, and change",
      "category": "Continous learning",
      "options": [
-      "Take online courses",
-      "Read books",
-      "Attend workshops",
-      "Practice what you learn"
+      "i",
+      "ii",
+      "iii",
+      "iv"
      ],
-     "correct_answer": "Practice what you learn"
+     "correct_answer": "i"
     },
     {
-     "question": "How do you stay up-to-date on your field?",
+     "question": "What is the definition of continuous learning?\nSelect from the following:\n[i] the ability to learn new things\n[ii] the ability to unlearn old things\n[iii] the ability to learn and unlearn new things\n[iv] the ability to apply new things",
      "category": "Continous learning",
      "options": [
-      "Read industry publications",
-      "Attend conferences",
-      "Network with other professionals",
-      "Take online courses"
+      "i",
+      "ii",
+      "iii",
+      "iv"
      ],
-     "correct_answer": "Read industry publications"
+     "correct_answer": "iii"
     }
    ]
   },
@@ -250,103 +326,125 @@
    "testname": "Project Management and Time Management",
    "questions": [
     {
-     "question": "Which of the following is a technique to prioritize tasks?\n(A) Critical path method\n(B) Pareto principle\n(C) Both A and B\n(D) None of the above",
-     "category": "Prioritization tasks and setting clear goals.",
+     "question": "What is the first step in the project management process?",
+     "category": "Understanding project life cycles, from initiation to completion",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Identifying the project goals",
+      "Creating a project plan",
+      "Estimating the project timeline",
+      "Assigning resources to the project"
      ],
-     "correct_answer": "C"
+     "correct_answer": "Identifying the project goals"
     },
     {
-     "question": "Which of the following is NOT a part of the project life cycle?\n(A) Initiation\n(B) Execution\n(C) Testing\n(D) Closure",
-     "category": "Understanding project life cycles, from initiation to completion.",
+     "question": "Which of the following is not a common project management tool?",
+     "category": "Utilization of tools or software related to time and project management",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Microsoft Project",
+      "Google Sheets",
+      "Trello",
+      "Slack"
      ],
-     "correct_answer": "D"
+     "correct_answer": "Google Sheets"
     },
     {
-     "question": "Which of the following is NOT a tool or software related to time and project management?\n(A) Microsoft Project\n(B) Trello\n(C) Google Sheets\n(D) Adobe Photoshop",
-     "category": "Utilization of tools or software related to time and project management.",
+     "question": "Which of the following is not a good time management technique?",
+     "category": "Handling multitasking and managing multiple assignments",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Create a to-do list",
+      "Set deadlines for yourself",
+      "Work on multiple projects at once",
+      "Take breaks throughout the day"
      ],
-     "correct_answer": "D"
+     "correct_answer": "Work on multiple projects at once"
     },
     {
-     "question": "Which of the following is NOT a good estimation technique for task duration?\n(A) Analogy\n(B) Parametric\n(C) Monte Carlo simulation\n(D) Delphi method",
-     "category": "Estimation of time required for tasks and setting deadlines.",
+     "question": "Which of the following is not a good estimation technique for time management?",
+     "category": "Estimation of time required for tasks and setting deadlines",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Add 20% to your estimated time",
+      "Use a project management tool",
+      "Ask for help from others",
+      "Double your estimated time"
      ],
-     "correct_answer": "C"
+     "correct_answer": "Double your estimated time"
     },
     {
-     "question": "When handling multiple assignments, which of the following techniques is NOT recommended?\n(A) Break down large tasks into smaller ones\n(B) Work on the most important tasks first\n(C) Schedule time for each task\n(D) Multitask as much as possible",
-     "category": "Handling multitasking and managing multiple assignments.",
+     "question": "Which of the following is not a good prioritization technique for tasks?",
+     "category": "Prioritization tasks and setting clear goals",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Start with the most important tasks",
+      "Start with the easiest tasks",
+      "Start with the most urgent tasks",
+      "Start with the most interesting tasks"
      ],
-     "correct_answer": "D"
+     "correct_answer": "Start with the most interesting tasks"
     },
     {
-     "question": "How can you set clear goals for a project?\n(A) By defining the purpose of the project\n(B) By defining the scope of the project\n(C) Both A and B\n(D) None of the above",
-     "category": "Prioritization tasks and setting clear goals.",
+     "question": "Which of the following is not a good way to set clear goals?",
+     "category": "Prioritization tasks and setting clear goals",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Make sure your goals are specific",
+      "Make sure your goals are measurable",
+      "Make sure your goals are achievable",
+      "Make sure your goals are exciting"
      ],
-     "correct_answer": "C"
+     "correct_answer": "Make sure your goals are exciting"
     },
     {
-     "question": "Which of the following is NOT a good practice for setting deadlines?\n(A) Set deadlines that are too ambitious\n(B) Set deadlines that are too lenient\n(C) Communicate deadlines to all stakeholders\n(D) Review deadlines regularly",
-     "category": "Estimation of time required for tasks and setting deadlines.",
+     "question": "What is the best way to prioritize tasks?",
+     "category": "Prioritization tasks and setting clear goals",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Start with the most important tasks",
+      "Start with the easiest tasks",
+      "Start with the most urgent tasks",
+      "Start with the most interesting tasks"
      ],
-     "correct_answer": "A"
+     "correct_answer": "Start with the most important tasks"
     },
     {
-     "question": "Which of the following is NOT a good technique for handling multitasking?\n(A) Break down large tasks into smaller ones\n(B) Work on the most important tasks first\n(C) Schedule time for each task\n(D) Multitask as much as possible",
-     "category": "Handling multitasking and managing multiple assignments.",
+     "question": "What is the best way to estimate the time required for a task?",
+     "category": "Estimation of time required for tasks and setting deadlines",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Add 20% to your estimated time",
+      "Use a project management tool",
+      "Ask for help from others",
+      "Double your estimated time"
      ],
-     "correct_answer": "D"
+     "correct_answer": "Add 20% to your estimated time"
     },
     {
-     "question": "Which of the following is NOT a part of the project life cycle?\n(A) Initiation\n(B) Execution\n(C) Testing\n(D) Closure",
-     "category": "Understanding project life cycles, from initiation to completion.",
+     "question": "What is the best way to handle multitasking and manage multiple assignments?",
+     "category": "Handling multitasking and managing multiple assignments",
      "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Create a to-do list",
+      "Set deadlines for yourself",
+      "Work on multiple projects at once",
+      "Take breaks throughout the day"
      ],
-     "correct_answer": "D"
+     "correct_answer": "Create a to-do list"
+    },
+    {
+     "question": "What is the best way to understand project life cycles, from initiation to completion?",
+     "category": "Understanding project life cycles, from initiation to completion",
+     "options": [
+      "Read books and articles on project management",
+      "Take a project management course",
+      "Get certified in project management",
+      "Work on a project with a mentor"
+     ],
+     "correct_answer": "Read books and articles on project management"
+    },
+    {
+     "question": "What is the best way to utilize tools or software related to time and project management?",
+     "category": "Utilization of tools or software related to time and project management",
+     "options": [
+      "Use a project management tool",
+      "Use a time management tool",
+      "Use a collaboration tool",
+      "Use a communication tool"
+     ],
+     "correct_answer": "Use a project management tool"
     }
    ]
   },
@@ -354,48 +452,48 @@
    "testname": "Professional Etiquette and Interview Preparedness.",
    "questions": [
     {
-     "question": "You are a manager and you are interviewing a candidate for a technical position. The candidate is 10 minutes late for the interview. What should you do?",
+     "question": "Scenario: You are in a meeting with your manager and they ask you to provide an update on a project.  You are not prepared for this and you do not have the information you need.  What do you do?",
      "category": "Scenario-based questions on professional conduct",
      "options": [
-      "Apologize for the wait and ask the candidate to start their presentation.",
-      "Ask the candidate to wait outside until you are ready.",
-      "Cancel the interview.",
-      "Ask the candidate to reschedule."
+      "A. Tell your manager that you will get back to them with the update.",
+      "B. Pretend that you know what you are talking about.",
+      "C. Tell your manager that you are busy and you will not be able to provide an update.",
+      "D. Ask your manager to send you the information you need so you can provide an update."
      ],
-     "correct_answer": "Apologize for the wait and ask the candidate to start their presentation."
+     "correct_answer": "A"
     },
     {
-     "question": "You are a job seeker and you have been invited to a mock interview session on our Platform. What should you do before the session?",
+     "question": "Scenario: You are interviewing for a job and the interviewer asks you a question that you do not know the answer to.  What do you do?",
      "category": "Setting up Mock interview sessions on our Platform",
      "options": [
-      "Review the interview rubric and practice answering the questions.",
-      "Set up an alarm to remind yourself of the interview time.",
-      "Dress professionally and arrive on time for the session.",
-      "All of the above."
+      "A. Tell the interviewer that you do not know the answer.",
+      "B. Make up an answer.",
+      "C. Ask the interviewer to repeat the question.",
+      "D. Ask the interviewer if you can have a moment to think about the question."
      ],
-     "correct_answer": "All of the above."
+     "correct_answer": "A"
     },
     {
-     "question": "You are interviewing for a job and the interviewer asks you, \"Why should we hire you?\" What should you say?",
+     "question": "What is the best way to handle a rude interviewer?",
      "category": "Scenario-based questions on professional conduct",
      "options": [
-      "I am a hard worker and I am always willing to learn new things.",
-      "I am a team player and I am always willing to help others.",
-      "I am a quick learner and I am always up for a challenge.",
-      "All of the above."
+      "A. Be rude back to them.",
+      "B. Ignore them.",
+      "C. Stay calm and professional.",
+      "D. Walk out of the interview."
      ],
-     "correct_answer": "All of the above."
+     "correct_answer": "C"
     },
     {
-     "question": "You are setting up a mock interview session on our Platform. What should you do?",
+     "question": "What is the best way to prepare for a mock interview?",
      "category": "Setting up Mock interview sessions on our Platform",
      "options": [
-      "Choose a topic for the interview.",
-      "Set up a time and date for the interview.",
-      "Invite the candidate to the interview.",
-      "All of the above."
+      "A. Do not prepare at all.",
+      "B. Read about the company and the position you are interviewing for.",
+      "C. Practice answering common interview questions.",
+      "D. All of the above."
      ],
-     "correct_answer": "All of the above."
+     "correct_answer": "D"
     }
    ]
   }

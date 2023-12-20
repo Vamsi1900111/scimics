@@ -32,7 +32,7 @@ def MCQ_questions(data):
                 l.append(dd)
             return l
         except:
-            return ques_list
+            split_json(ques_list)
     palm.configure(api_key='AIzaSyCpta0zYFZSLw7imatVqW-exaviTfMIqu0')
     format="""\n
     {
