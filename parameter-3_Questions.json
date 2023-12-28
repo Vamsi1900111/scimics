@@ -1,0 +1,97 @@
+{
+ "MCQ_Questions": [
+  {
+   "testname": "Communication Skills",
+   "questions": [
+    {
+     "question": "Which of these sentences is grammatically incorrect?",
+     "category": "Listening",
+     "options": [
+      "I didn't do anything",
+      "I didn't do nothing",
+      "I didn't do anything at all",
+      "I didn't do nothing at all"
+     ],
+     "correct_answer": "I didn't do nothing at all"
+    },
+    {
+     "question": "Which of these sentences is grammatically incorrect?",
+     "category": "Listening",
+     "options": [
+      "He made a mistake",
+      "He did a mistake",
+      "He did a mistake",
+      "He made a mistake"
+     ],
+     "correct_answer": "He did a mistake"
+    },
+    {
+     "question": "In this paragraph, the author is trying to convince you to buy a new car. Which sentence is most likely to be in the article?",
+     "category": "Reading",
+     "options": [
+      "The new car is a great value",
+      "The new car is a bad value",
+      "The new car is a good value",
+      "The new car is a terrible value"
+     ],
+     "correct_answer": "The new car is a great value"
+    },
+    {
+     "question": "In this paragraph, the author is trying to convince you to buy a new car. Which sentence is most likely to be in the article?",
+     "category": "Reading",
+     "options": [
+      "The new car is a great value",
+      "The new car is a bad value",
+      "The new car is a good value",
+      "The new car is a terrible value"
+     ],
+     "correct_answer": "The new car is a great value"
+    },
+    {
+     "question": "Write a sentence that describes a person who is very good at speaking in public",
+     "category": "Writing",
+     "options": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "correct_answer": "A person who is very good at speaking in public is an eloquent speaker"
+    },
+    {
+     "question": "Write a sentence that describes a person who is very good at speaking in public",
+     "category": "Writing",
+     "options": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "correct_answer": "A person who is very good at speaking in public is an eloquent speaker"
+    },
+    {
+     "question": "Give a speech that persuades your audience to vote for you in the upcoming election",
+     "category": "Speaking",
+     "options": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "correct_answer": ""
+    },
+    {
+     "question": "Give a speech that persuades your audience to vote for you in the upcoming election",
+     "category": "Speaking",
+     "options": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "correct_answer": ""
+    }
+   ]
+  }
+ ]
+}

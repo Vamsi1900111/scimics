@@ -1,0 +1,108 @@
+{
+ "MCQ_Questions": [
+  {
+   "testname": "Cognitive Abilities",
+   "questions": [
+    {
+     "question": "A train running at the speed of 60 kmph crosses a pole in 9 seconds. What is the length of the train?",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "108 m",
+      "110 m",
+      "112 m",
+      "114 m"
+     ],
+     "correct_answer": "112 m"
+    },
+    {
+     "question": "A man can row a boat at 8 kmph in still water. In how much time will he row 15 km upstream if the speed of the stream is 2 kmph?",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "1 h 30 min",
+      "1 h 40 min",
+      "1 h 50 min",
+      "1 h 55 min"
+     ],
+     "correct_answer": "1 h 40 min"
+    },
+    {
+     "question": "If x + y = 10 and xy = 20, then what is the value of x2 + y2?",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+     ],
+     "correct_answer": "140"
+    },
+    {
+     "question": "A train 100 m long is running at a speed of 60 kmph. In what time will it pass a man standing on the platform?",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "10 sec",
+      "12 sec",
+      "14 sec",
+      "15 sec"
+     ],
+     "correct_answer": "12 sec"
+    },
+    {
+     "question": "A train running at the speed of 60 kmph crosses a pole in 9 seconds. What is the length of the train?",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "108 m",
+      "110 m",
+      "112 m",
+      "114 m"
+     ],
+     "correct_answer": "112 m"
+    },
+    {
+     "question": "In a school, 40% of the students are girls. If the total number of students in the school is 1600, find the number of boys.",
+     "category": "Quantitative Aptitude",
+     "options": [
+      "640",
+      "644",
+      "648",
+      "652"
+     ],
+     "correct_answer": "640"
+    },
+    {
+     "question": "If 'P' is brother of 'Q', 'Q' is sister of 'R' and 'R' is mother of 'S', then how is 'P' related to 'S'?",
+     "category": "Logical Reasoning",
+     "options": [
+      "Nephew",
+      "Son",
+      "Brother",
+      "Uncle"
+     ],
+     "correct_answer": "Nephew"
+    },
+    {
+     "question": "A train leaves the station at 11:00 am and travels at a speed of 60 kmph. Another train leaves the same station at 1:00 pm and travels in the same direction at a speed of 75 kmph. At what time will the second train overtake the first train?",
+     "category": "Logical Reasoning",
+     "options": [
+      "2:30 pm",
+      "3:00 pm",
+      "3:30 pm",
+      "4:00 pm"
+     ],
+     "correct_answer": "3:30 pm"
+    },
+    {
+     "question": "If 'A' is the father of 'B', 'B' is the mother of 'C', and 'C' is the sister of 'D', then what is the relation between 'A' and 'D'?",
+     "category": "Logical Reasoning",
+     "options": [
+      "Grandfather",
+      "Father",
+      "Uncle",
+      "Grandmother"
+     ],
+     "correct_answer": "Grandfather"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "MCQ_Questions": [
+  {
+   "testname": "Technical Proficiency",
+   "questions": [
+    {
+     "question": "What is the full form of RAM?",
+     "category": "CSEforBtech",
+     "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Random Access Machine",
+      "Read Access Machine"
+     ],
+     "correct_answer": "Random Access Memory"
+    },
+    {
+     "question": "What is the difference between TCP and UDP?",
+     "category": "CSEforBtech",
+     "options": [
+      "TCP is connection-oriented and UDP is not",
+      "UDP is connection-oriented and TCP is not",
+      "TCP is faster than UDP",
+      "UDP is faster than TCP"
+     ],
+     "correct_answer": "TCP is connection-oriented and UDP is not"
+    },
+    {
+     "question": "What is the difference between a compiler and an interpreter?",
+     "category": "CSEforBtech",
+     "options": [
+      "A compiler translates a program into machine code",
+      "An interpreter translates a program into machine code",
+      "A compiler translates a program into assembly language",
+      "An interpreter translates a program into assembly language"
+     ],
+     "correct_answer": "A compiler translates a program into machine code"
+    },
+    {
+     "question": "What is the difference between a procedural language and an object-oriented language?",
+     "category": "CSEforBtech",
+     "options": [
+      "A procedural language is more structured than an object-oriented language",
+      "An object-oriented language is more structured than a procedural language",
+      "A procedural language is more flexible than an object-oriented language",
+      "An object-oriented language is more flexible than a procedural language"
+     ],
+     "correct_answer": "An object-oriented language is more structured than a procedural language"
+    }
+   ]
+  }
+ ]
+}

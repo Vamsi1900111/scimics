@@ -1,0 +1,75 @@
+{
+ "MCQ_Questions": [
+  {
+   "testname": "Personality and Behavioral",
+   "questions": [
+    {
+     "question": "You are given a task and the manager asks you to check with your team member if you can take over the task. What will you do?",
+     "category": "Interpersonal and Team work Skills",
+     "options": [
+      "Ask the team member if they are comfortable with you taking over the task.",
+      "Immediately take over the task without asking the team member.",
+      "Ask your manager to assign the task to someone else.",
+      "Ask your manager to ask your team member to take over the task."
+     ],
+     "correct_answer": "Ask the team member if they are comfortable with you taking over the task."
+    },
+    {
+     "question": "Your manager asks you to complete a task that you have never done before. What will you do?",
+     "category": "Adaptability and Continuous Learning",
+     "options": [
+      "Ask your manager to assign the task to someone else who knows how to do it.",
+      "Ask your manager to teach you how to do the task.",
+      "Google how to do the task and try to complete it.",
+      "Ask your team members if they know how to do the task."
+     ],
+     "correct_answer": "Ask your manager to teach you how to do the task."
+    },
+    {
+     "question": "You are given a task that you need to complete in 2 hours. You have already completed 50% of the task in 1 hour. How will you manage your time to complete the remaining 50% of the task?",
+     "category": "Handling multitasking and managing multiple assignments",
+     "options": [
+      "Complete the task in the next 1 hour.",
+      "Take a break for 1 hour and then complete the task in the next 1 hour.",
+      "Complete the task in the next 2 hours.",
+      "Complete the task in the next 3 hours."
+     ],
+     "correct_answer": "Complete the task in the next 1 hour."
+    },
+    {
+     "question": "You are given a project that requires you to manage multiple tasks and meet a deadline. What will you do?",
+     "category": "Project Management and Time Management",
+     "options": [
+      "Create a project plan and stick to it.",
+      "Create a project plan but don't stick to it.",
+      "Don't create a project plan.",
+      "Create a project plan and then ask your manager to help you with it."
+     ],
+     "correct_answer": "Create a project plan and stick to it."
+    },
+    {
+     "question": "You are in a job interview and the interviewer asks you to describe a time when you had to deal with a difficult customer. What will you say?",
+     "category": "Professional Etiquette and Interview Preparedness",
+     "options": [
+      "I will describe a time when I had to deal with a difficult customer and how I handled the situation professionally.",
+      "I will describe a time when I had to deal with a difficult customer and how I lost my temper.",
+      "I will describe a time when I had to deal with a difficult customer and how I complained to my manager.",
+      "I will describe a time when I had to deal with a difficult customer and how I asked my manager to help me."
+     ],
+     "correct_answer": "I will describe a time when I had to deal with a difficult customer and how I handled the situation professionally."
+    },
+    {
+     "question": "You are in a job interview and the interviewer asks you to describe a time when you had to work on a team project. What will you say?",
+     "category": "Interpersonal and Team work Skills",
+     "options": [
+      "I will describe a time when I had to work on a team project and how I contributed to the team.",
+      "I will describe a time when I had to work on a team project and how I did not contribute to the team.",
+      "I will describe a time when I had to work on a team project and how I complained about the team.",
+      "I will describe a time when I had to work on a team project and how I asked my manager to help me."
+     ],
+     "correct_answer": "I will describe a time when I had to work on a team project and how I contributed to the team."
+    }
+   ]
+  }
+ ]
+}
