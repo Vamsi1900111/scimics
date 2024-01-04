@@ -74,7 +74,7 @@ def MCQ_questions(data):
     course=data['course']
     stream=data['stream']
     count1a=data['1Q_a_count']
-    Q1_time=data['1Q_a_time']
+    Q1_time=data['1Q_time']
     count1b=data['1Q_b_count']
     category=course+"for"+stream
     Q1_time=int(Q1_time)
