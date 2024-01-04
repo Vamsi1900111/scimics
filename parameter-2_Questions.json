@@ -4,48 +4,52 @@
    "testname": "Technical Proficiency",
    "questions": [
     {
-     "question": "What is the full form of RAM?",
-     "category": "CSEforBtech",
+     "question": "Given the string 'abc', return a new string made of the first 2 letters, followed by the last 2 letters.",
+     "category": "coding questions",
      "options": [
-      "Random Access Memory",
-      "Read Access Memory",
-      "Random Access Machine",
-      "Read Access Machine"
+      "abdc",
+      "acb",
+      "bac",
+      "bca",
+      "cab"
      ],
-     "correct_answer": "Random Access Memory"
+     "correct_answer": "cab"
     },
     {
-     "question": "What is the difference between TCP and UDP?",
-     "category": "CSEforBtech",
+     "question": "What is the capital of India?",
+     "category": "questions related to CSE-Btech",
      "options": [
-      "TCP is connection-oriented and UDP is not",
-      "UDP is connection-oriented and TCP is not",
-      "TCP is faster than UDP",
-      "UDP is faster than TCP"
+      "New Delhi",
+      "Mumbai",
+      "Chennai",
+      "Kolkata",
+      "Hyderabad"
      ],
-     "correct_answer": "TCP is connection-oriented and UDP is not"
+     "correct_answer": "New Delhi"
+    },
+    {
+     "question": "Write a Python program to print the Fibonacci series",
+     "category": "coding questions",
+     "options": [
+      "print(1, 1, end=' ')",
+      "print(1, 2, end=' ')",
+      "print(0, 1, end=' ')",
+      "print(0, 0, end=' ')",
+      "print(1, 0, end=' ')"
+     ],
+     "correct_answer": "print(0, 1, end=' ')"
     },
     {
      "question": "What is the difference between a compiler and an interpreter?",
-     "category": "CSEforBtech",
+     "category": "questions related to CSE-Btech",
      "options": [
-      "A compiler translates a program into machine code",
-      "An interpreter translates a program into machine code",
-      "A compiler translates a program into assembly language",
-      "An interpreter translates a program into assembly language"
+      "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program one instruction at a time.",
+      "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program all at once.",
+      "A compiler translates a program into machine code after it is run, while an interpreter translates and executes the program one instruction at a time.",
+      "A compiler translates a program into machine code after it is run, while an interpreter translates and executes the program all at once.",
+      "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program all at once."
      ],
-     "correct_answer": "A compiler translates a program into machine code"
-    },
-    {
-     "question": "What is the difference between a procedural language and an object-oriented language?",
-     "category": "CSEforBtech",
-     "options": [
-      "A procedural language is more structured than an object-oriented language",
-      "An object-oriented language is more structured than a procedural language",
-      "A procedural language is more flexible than an object-oriented language",
-      "An object-oriented language is more flexible than a procedural language"
-     ],
-     "correct_answer": "An object-oriented language is more structured than a procedural language"
+     "correct_answer": "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program one instruction at a time."
     }
    ]
   }

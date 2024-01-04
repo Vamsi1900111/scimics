@@ -57,14 +57,15 @@ def MCQ_questions(data):
     count1a=data['1Q_a_count']
     Q1_time=data['1Q_time']
     count1b=data['1Q_b_count']
-    category=course+"for"+stream
+    category1='coding questions'
+    category2='questions related to'+course+"-"+stream
     count1=max(int(count1a),int(count1b))
     inputt="""{
         "testname": "Technical Proficiency",
-        "categories": [%s,'Hands-on-coding'],
+        "categories": [%s,%s],
         "question_counts": [%s,%s]
-        }"""%(category,count1a,count1b)
-    text="Generate "+count1+" sets of Technical Proficiency test questions based on user-provided input:\n"+inputt+"\nThe output should be in the following format:\n"+format
+        }"""%(category1,category2,count1a,count1a)
+    text="Generate "+str(count1)+" sets of Technical Proficiency test questions based on user-provided input:\n"+inputt+"\nThe output should be in the following format:\n"+format
     result1 = generate(text)
     result1={
         "testname": "Technical Proficiency",
