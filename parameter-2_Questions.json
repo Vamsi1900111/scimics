@@ -4,52 +4,48 @@
    "testname": "Technical Proficiency",
    "questions": [
     {
-     "question": "Given the string 'abc', return a new string made of the first 2 letters, followed by the last 2 letters.",
-     "category": "coding questions",
+     "question": "Given a string, return all the possible permutations of the string.",
+     "category": "coding questions with outputs as options",
      "options": [
-      "abdc",
-      "acb",
-      "bac",
-      "bca",
-      "cab"
+      "['abc', 'acb', 'bac', 'bca', 'cab', 'cba']",
+      "['abc', 'acb', 'cba']",
+      "['abc', 'acb', 'bac', 'bca', 'cab']",
+      "['abc', 'acb', 'cba', 'bac', 'cab']"
      ],
-     "correct_answer": "cab"
+     "correct_answer": "['abc', 'acb', 'bac', 'bca', 'cab', 'cba']"
     },
     {
-     "question": "What is the capital of India?",
-     "category": "questions related to CSE-Btech",
+     "question": "Write a program to reverse a string in python.",
+     "category": "coding questions with outputs as options",
      "options": [
-      "New Delhi",
-      "Mumbai",
-      "Chennai",
-      "Kolkata",
-      "Hyderabad"
+      "'cba'",
+      "'cba'",
+      "'abc'",
+      "'cba'"
      ],
-     "correct_answer": "New Delhi"
+     "correct_answer": "'cba'"
     },
     {
-     "question": "Write a Python program to print the Fibonacci series",
-     "category": "coding questions",
+     "question": "Given a string, find the longest substring that is palindrome.",
+     "category": "coding questions with outputs as options",
      "options": [
-      "print(1, 1, end=' ')",
-      "print(1, 2, end=' ')",
-      "print(0, 1, end=' ')",
-      "print(0, 0, end=' ')",
-      "print(1, 0, end=' ')"
+      "'bab'",
+      "'abb'",
+      "'abba'",
+      "'baab'"
      ],
-     "correct_answer": "print(0, 1, end=' ')"
+     "correct_answer": "'abba'"
     },
     {
-     "question": "What is the difference between a compiler and an interpreter?",
-     "category": "questions related to CSE-Btech",
+     "question": "Given an array of integers, find the maximum sum of any contiguous subarray.",
+     "category": "coding questions with outputs as options",
      "options": [
-      "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program one instruction at a time.",
-      "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program all at once.",
-      "A compiler translates a program into machine code after it is run, while an interpreter translates and executes the program one instruction at a time.",
-      "A compiler translates a program into machine code after it is run, while an interpreter translates and executes the program all at once.",
-      "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program all at once."
+      "7",
+      "10",
+      "11",
+      "12"
      ],
-     "correct_answer": "A compiler translates a program into machine code before it is run, while an interpreter translates and executes the program one instruction at a time."
+     "correct_answer": "12"
     }
    ]
   }

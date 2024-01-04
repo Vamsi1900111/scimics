@@ -6,7 +6,7 @@
     //parametr-2:
         "stream": "Btech",//(B-tech,MBA,BBA)
         "course": "ECE",//CSE,ECE,IT,MECH
-        "1Qtime":"2",
+        "1Q_time":"2",
         "1Q_a_count":"2",
         "1Q_b_count":"2",
     //parametr-3:
