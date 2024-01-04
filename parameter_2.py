@@ -40,8 +40,7 @@ def MCQ_questions(data):
       "category": "Category1",
       "options": ["Option1", "Option2", "Option3", "Option4"],
       "correct_answer": "CorrectOption"
-    },
-    {
+    },{
       "question": "Another sample question?",
       "category": "Category2",
       "options": ["Option1", "Option2", "Option3", "Option4"],
@@ -52,25 +51,27 @@ def MCQ_questions(data):
     def generate(text):
         response = palm.generate_text(prompt=text)
         return response.result
-#parameter-1:
+#parameter-2:
     course=data['course']
     stream=data['stream']
-    count1=data['1Q_count']
-    Q1_time=data['1Q_time']
+    count1a=data['1Q_a_count']
+    Q1a_time=data['1Q_a_time']
+    count1b=data['1Q_b_count']
+    Q1b_time=data['1Q_b_time']
     category=course+"for"+stream
+    count1=max(int(count1a),int(count1b))
     inputt="""{
         "testname": "Technical Proficiency",
-        "categories": [%s],
-        "question_counts": [%s]
-        }"""%(category,count1)
+        "categories": [%s,'Hands-on-coding'],
+        "question_counts": [%s,%s]
+        }"""%(category,count1a,count1b)
     text="Generate "+count1+" sets of Technical Proficiency test questions based on user-provided input:\n"+inputt+"\nThe output should be in the following format:\n"+format
     result1 = generate(text)
     result1={
         "testname": "Technical Proficiency",
         "questions":split_json([result1])
     }
-    time=int(Q1_time)
-    count=int(count1)
+    time=int(Q1a_time)+int(Q1b_time)
     data={'MCQ_Questions':[result1]}
     path="parameter-2_Questions.json"
     try:

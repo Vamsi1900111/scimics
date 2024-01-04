@@ -1,0 +1,24 @@
+{
+    //parametr-1:
+        "3Q_time":"2",
+        "3Q_a_count":"6",
+        "3Q_b_count":"6",
+    //parametr-2:
+        "stream": "Btech",
+        "course": "ECE",
+        "1Qtime":"2",
+        "1Q_a_count":"2",
+        "1Q_b_count":"2",
+    //parametr-3:
+        "2Q_time":"2",
+        "2Q_a_count":"2",
+        "2Q_b_count":"2",
+        "2Q_c_count":"2",
+        "2Q_d_count":"2",
+    //parametr-4:
+        "6Q_time":"2",
+        "6Q_a_count":"2",
+        "6Q_b_count":"2",
+        "6Q_c_count":"2",
+        "6Q_d_count":"2"
+    }

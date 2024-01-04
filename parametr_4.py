@@ -62,7 +62,7 @@ def MCQ_questions(data):
     count6=str(count6)
     inputt="""{
         "testname": "Personality and Behavioral",
-        "categories": ["Interpersonal and Team work Skills:focus on teamwork dynamics and communication within a group.", "Adaptability and Continuous Learning: emphasize the ability to adapt to changes and continue learning in a professional environment.","Handling multitasking and managing multiple assignments.","Project Management and Time Management: deal with organizing, planning, and managing time effectively for projects.","Professional Etiquette and Interview Preparedness: cover the basics of professional conduct and preparing for job interviews."],
+        "categories": ["Interpersonal and Team work Skills:focus on teamwork dynamics and communication within a group.", "Adaptability and Continuous Learning: emphasize the ability to adapt to changes and continue learning in a professional environment.","Project Management and Time Management: deal with organizing, planning, and managing time effectively for projects.","Professional Etiquette and Interview Preparedness: cover the basics of professional conduct and preparing for job interviews."],
         "question_counts": [%s,%s,%s,%s]
         }"""%(count6,count6,count6,count6)
     text="Generate "+count6+" sets of Personality and Behavioral test questions based on user-provided input:\n"+inputt+"\nThe output should be in the following format:\n"+format
@@ -71,7 +71,6 @@ def MCQ_questions(data):
         "testname": "Personality and Behavioral",
         "questions":split_json([result6])
     } 
-
     def generate(text):
         response = palm.generate_text(prompt=text)
         return response.result

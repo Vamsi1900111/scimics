@@ -70,18 +70,20 @@ def MCQ_questions(data):
         "testname": "Cognitive Abilities",
         "questions":split_json([result3])
     }
-
 #parameter-2:
     course=data['course']
     stream=data['stream']
-    count1=data['1Q_count']
-    Q1_time=data['1Q_time']
+    count1a=data['1Q_a_count']
+    Q1_time=data['1Q_a_time']
+    count1b=data['1Q_b_count']
     category=course+"for"+stream
+    Q1_time=int(Q1_time)
+    count1=max(int(count1a),int(count1b))
     inputt="""{
         "testname": "Technical Proficiency",
-        "categories": [%s],
-        "question_counts": [%s]
-        }"""%(category,count1)
+        "categories": [%s,'Hands-on-coding'],
+        "question_counts": [%s,%s]
+        }"""%(category,count1a,count1b)
     text="Generate "+count1+" sets of Technical Proficiency test questions based on user-provided input:\n"+inputt+"\nThe output should be in the following format:\n"+format
     result1 = generate(text)
     result1={
@@ -118,7 +120,7 @@ def MCQ_questions(data):
     count6=str(count6)
     inputt="""{
         "testname": "Personality and Behavioral",
-        "categories": ["Interpersonal and Team work Skills:focus on teamwork dynamics and communication within a group.", "Adaptability and Continuous Learning: emphasize the ability to adapt to changes and continue learning in a professional environment.","Handling multitasking and managing multiple assignments.","Project Management and Time Management: deal with organizing, planning, and managing time effectively for projects.","Professional Etiquette and Interview Preparedness: cover the basics of professional conduct and preparing for job interviews."],
+        "categories": ["Interpersonal and Team work Skills:focus on teamwork dynamics and communication within a group.", "Adaptability and Continuous Learning: emphasize the ability to adapt to changes and continue learning in a professional environment.","Project Management and Time Management: deal with organizing, planning, and managing time effectively for projects.","Professional Etiquette and Interview Preparedness: cover the basics of professional conduct and preparing for job interviews."],
         "question_counts": [%s,%s,%s,%s]
         }"""%(count6,count6,count6,count6)
     text="Generate "+count6+" sets of Personality and Behavioral test questions based on user-provided input:\n"+inputt+"\nThe output should be in the following format:\n"+format
