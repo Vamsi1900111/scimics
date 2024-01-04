@@ -4,8 +4,8 @@
         "3Q_a_count":"6",
         "3Q_b_count":"6",
     //parametr-2:
-        "stream": "Btech",
-        "course": "ECE",
+        "stream": "Btech",//(B-tech,MBA,BBA)
+        "course": "ECE",//CSE,ECE,IT,MECH
         "1Qtime":"2",
         "1Q_a_count":"2",
         "1Q_b_count":"2",
