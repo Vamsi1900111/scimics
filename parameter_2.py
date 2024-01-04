@@ -70,7 +70,7 @@ def MCQ_questions(data):
         "testname": "Technical Proficiency",
         "questions":split_json([result1])
     }
-    time=int(Q1a_time)+int(Q1b_time)
+    time=int(Q1_time)
     data={'MCQ_Questions':[result1]}
     path="parameter-2_Questions.json"
     try:
