@@ -55,9 +55,8 @@ def MCQ_questions(data):
     course=data['course']
     stream=data['stream']
     count1a=data['1Q_a_count']
-    Q1a_time=data['1Q_a_time']
+    Q1_time=data['1Q_time']
     count1b=data['1Q_b_count']
-    Q1b_time=data['1Q_b_time']
     category=course+"for"+stream
     count1=max(int(count1a),int(count1b))
     inputt="""{
