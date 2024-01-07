@@ -4,92 +4,118 @@
    "testname": "Communication Skills",
    "questions": [
     {
-     "question": "Which of these sentences is grammatically incorrect?",
+     "question": "You are in a meeting and the speaker is talking about a new product. You are not sure what they are talking about. What should you do?",
      "category": "Listening",
      "options": [
-      "I didn't do anything",
-      "I didn't do nothing",
-      "I didn't do anything at all",
-      "I didn't do nothing at all"
+      "Ask for clarification",
+      "Interrupt and ask them to repeat themselves",
+      "Look at your phone",
+      "Try to guess what they are talking about"
      ],
-     "correct_answer": "I didn't do nothing at all"
+     "correct_answer": "Ask for clarification"
     },
     {
-     "question": "Which of these sentences is grammatically incorrect?",
+     "question": "You are writing a letter to your boss. You want to ask for a raise. How should you write the letter?",
+     "category": "Writing",
+     "options": [
+      "Be direct and to the point",
+      "Be polite and respectful",
+      "Be formal and use a lot of jargon",
+      "Be informal and use slang"
+     ],
+     "correct_answer": "Be direct and to the point"
+    },
+    {
+     "question": "You are giving a presentation to a group of people. You are nervous and your voice is shaking. What should you do?",
+     "category": "Speaking",
+     "options": [
+      "Take a deep breath",
+      "Look at your notes",
+      "Speak louder",
+      "Try to relax"
+     ],
+     "correct_answer": "Take a deep breath"
+    },
+    {
+     "question": "You are in a meeting and you are not sure what the speaker is talking about. What should you do?",
      "category": "Listening",
      "options": [
-      "He made a mistake",
-      "He did a mistake",
-      "He did a mistake",
-      "He made a mistake"
+      "Ask for clarification",
+      "Interrupt and ask them to repeat themselves",
+      "Look at your phone",
+      "Try to guess what they are talking about"
      ],
-     "correct_answer": "He did a mistake"
+     "correct_answer": "Ask for clarification"
     },
     {
-     "question": "In this paragraph, the author is trying to convince you to buy a new car. Which sentence is most likely to be in the article?",
-     "category": "Reading",
-     "options": [
-      "The new car is a great value",
-      "The new car is a bad value",
-      "The new car is a good value",
-      "The new car is a terrible value"
-     ],
-     "correct_answer": "The new car is a great value"
-    },
-    {
-     "question": "In this paragraph, the author is trying to convince you to buy a new car. Which sentence is most likely to be in the article?",
-     "category": "Reading",
-     "options": [
-      "The new car is a great value",
-      "The new car is a bad value",
-      "The new car is a good value",
-      "The new car is a terrible value"
-     ],
-     "correct_answer": "The new car is a great value"
-    },
-    {
-     "question": "Write a sentence that describes a person who is very good at speaking in public",
+     "question": "You are writing a blog post about a new product. How should you write the post?",
      "category": "Writing",
      "options": [
-      "",
-      "",
-      "",
-      ""
+      "Be direct and to the point",
+      "Be polite and respectful",
+      "Be formal and use a lot of jargon",
+      "Be informal and use slang"
      ],
-     "correct_answer": "A person who is very good at speaking in public is an eloquent speaker"
+     "correct_answer": "Be direct and to the point"
     },
     {
-     "question": "Write a sentence that describes a person who is very good at speaking in public",
-     "category": "Writing",
-     "options": [
-      "",
-      "",
-      "",
-      ""
-     ],
-     "correct_answer": "A person who is very good at speaking in public is an eloquent speaker"
-    },
-    {
-     "question": "Give a speech that persuades your audience to vote for you in the upcoming election",
+     "question": "You are giving a speech to a group of people. You are nervous and your voice is shaking. What should you do?",
      "category": "Speaking",
      "options": [
-      "",
-      "",
-      "",
-      ""
+      "Take a deep breath",
+      "Look at your notes",
+      "Speak louder",
+      "Try to relax"
      ],
-     "correct_answer": ""
+     "correct_answer": "Take a deep breath"
+    }
+   ],
+   "comprehensive_questions": [
+    {
+     "Paragraph": "Paragraph 1. This is a paragraph about communication skills. It discusses the importance of communication in the workplace and how to improve your communication skills.",
+     "question": "What is the main topic of this paragraph?",
+     "category": "Reading",
+     "options": [
+      "The importance of communication in the workplace",
+      "How to improve your communication skills",
+      "The different types of communication",
+      "The different communication styles"
+     ],
+     "correct_answer": "The importance of communication in the workplace"
     },
     {
-     "question": "Give a speech that persuades your audience to vote for you in the upcoming election",
-     "category": "Speaking",
+     "question": "Which of the following is not a type of communication?",
+     "category": "Reading",
      "options": [
-      "",
-      "",
-      "",
-      ""
+      "Verbal communication",
+      "Nonverbal communication",
+      "Written communication",
+      "Visual communication"
      ],
-     "correct_answer": ""
+     "correct_answer": "Visual communication"
+    },
+    {
+     "Paragraph": "Paragraph 2. This is a paragraph about communication skills. It discusses the different types of communication and how to use them effectively.",
+     "question": "What is the main topic of this paragraph?",
+     "category": "Reading",
+     "options": [
+      "The different types of communication",
+      "How to use different types of communication",
+      "The importance of communication in the workplace",
+      "How to improve your communication skills"
+     ],
+     "correct_answer": "The different types of communication"
+    },
+    {
+     "question": "Which of the following is not a type of communication?",
+     "category": "Reading",
+     "options": [
+      "Verbal communication",
+      "Nonverbal communication",
+      "Written communication",
+      "Visual communication"
+     ],
+     "correct_answer": "Visual communication"
     }
    ]
   }

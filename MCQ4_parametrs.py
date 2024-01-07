@@ -97,17 +97,43 @@ def MCQ_questions(data):
     Q2c_count=data['2Q_c_count']
     Q2d_count=data['2Q_d_count']
     count2=Q2a_count
-    # text="generate "+count2+ " each on listening,reading,writting,speaking."+"in this format:\n"+format
+    # text="generate "+count2+ " each on listening,writting,speaking categories. In this format:\n"+format
     inputt="""{
         "testname": "Communication Skills",
-        "categories": ["Listening", "Reading", "Writing","speaking"],
-        "question_counts": [%s,%s,%s,%s]
-        }"""%(count2,count2,count2,count2)
-    text="Generate "+count2+" sets of communication skills test paragraph questions based on user-provided input\n"+inputt+"\nThe output should be in the following format:\n"+format
-    result2 = generate(text)
+        "categories": ["Listening", "Writing","speaking"],
+        "question_counts": [%s,%s,%s]
+        }"""%(count2,count2,count2)
+    text="Generate "+count2+" sets of communication skills questions based on below-provided input\n"+inputt+"\nThe output should be in the following format:\n"+format
+    result21 = generate(text)
+#Reading
+    format2="""\n
+    {
+      "Paragraph":"sample paragraph",
+      "question": "Sample question?",
+      "category": "Category1",
+      "options": ["Option1", "Option2", "Option3", "Option4"],
+      "correct_answer": "CorrectOption"
+    },
+    {
+      "question": "Another sample question?",
+      "category": "Category2",
+      "options": ["Option1", "Option2", "Option3", "Option4"],
+      "correct_answer": "CorrectOption"
+    }
+    //other questions
+""" 
+    inputt2="""{
+        "testname": "Communication Skills",
+        "categories": ["Reading"],
+        "question_counts": [%s]
+        }"""%(count2)
+    text2="Generate "+count2+" sets of communication skills test paragraph questions based on user-provided input\n"+inputt2+"\nThe output should be in the following format:\n"+format2
+    result22 = generate(text2)
+#Result
     result2={
         "testname": "Communication Skills",
-        "questions":split_json([result2])
+        "questions":split_json([result21]),
+        "comprehensive_questions":split_json([result22])
     }
 #parameter-4:
     Q6_time=data['6Q_time']
